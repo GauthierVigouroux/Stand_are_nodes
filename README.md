@@ -6,6 +6,7 @@ Visualisation de l'éco-système normatif autour des cartes de navigations sous 
 
 1. Création du docker Python avec son Dockerfile (ou compose)
     + Setup environnement de travail
+        + Faire un lien symbolique entre mon docker et mon
 2. Développement du script PARSE_HTML
 3. Développement du script FORM_URL
 4. Développement du script PUSH_SQL
