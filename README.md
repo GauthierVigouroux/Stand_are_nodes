@@ -1,4 +1,8 @@
-# TODO List
+# Stand_are_nodes
+
+Visualisation de l'éco-système normatif autour des cartes de navigations sous forme de nuage de points.
+
+## TODO List
 
 1. Création du docker Python avec son Dockerfile (ou compose)
     + Setup environnement de travail
