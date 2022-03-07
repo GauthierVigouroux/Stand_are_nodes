@@ -1,0 +1,3 @@
+[submodule "requests-html"]
+	path = requests-html
+	url = https://github.com/psf/requests-html
