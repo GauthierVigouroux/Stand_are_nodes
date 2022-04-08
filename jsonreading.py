@@ -7,6 +7,6 @@ def readJsonFile():
     jsonContent = fileObject.read()
     InitISODict = json.loads(jsonContent)
     ISODict = dict()
-    for cle,values in InitISODict:
-        ISODict["cle"]=[values[0],values[1],tuple()]
+    for cle,values in InitISODict.items():
+        ISODict[cle]=[values[0],values[1],tuple()]
     return ISODict
