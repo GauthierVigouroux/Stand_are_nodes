@@ -1,0 +1,23 @@
+#+TITLE: Irregu Norme
+
+* Normes révisées:
+** ISO 19113
+** ISO 19114
+** ISO 19138
+* Normes au destin inconnue:
+** ISO 19120
+** ISO 19122
+** ISO 19160_5
+* Normes annulées:
+** ISO 19125
+** ISO 19139_2
+** ISO 19153 (sur les geoDRMs)
+* Norme en projet:
+** ISO 19152_2
+** ISO 19154_4
+** ISO 19160_2
+** ISO 19160_6
+** ISO 19164
+** ISO 19168_2
+** ISO 19170_3
+** ISO 19170_4

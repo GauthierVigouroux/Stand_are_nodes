@@ -1,3 +1,4 @@
+from os import link
 import unicodedata
 from requests_html import HTMLSession
 
@@ -11,7 +12,9 @@ def isorequests(url,ISODict):
     
     # Récupération du code source
     response = session.get(url)
-    print(response.status_code) # Si retourne 200 = OK
+    #Test rapide pour savoir si il y a une erreure à un moment donné
+    if response.status_code != 200:
+        print(response.status_code)
     
     # Execution du Javascript
     response.html.render(sleep=1, keep_page=True)
@@ -48,11 +51,15 @@ def isorequests(url,ISODict):
     #         ISODict[unicodedata.normalize("NFKD",str(element.text).split(',',1)[0])] = [unicodedata.normalize("NFKD",str(element.text)),None,tuple()] # Pour modifier le tuple il faut retransformer en liste (les listes ne sont pas hasables)
     # Afin d'être le plus précis possible je dois regarder au delas des références normatives
     # et prendre en compte .
+
+    linktuple = tuple()
     for item in StandListSTDClean:
         #print(item.absolute_links)
         if str(item.text).startswith('—') == False:
-            print(type(item.absolute_links))
-            ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = [unicodedata.normalize("NFKD",str(item.text)),str(item.absolute_links),tuple()]
+            for value in item.absolute_links:
+                link = value
+            linktuple = linktuple + (link,)
+            ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = [unicodedata.normalize("NFKD",str(item.text)),str(item.absolute_links),linktuple]
     # Print Testing
     #for cle in ISODict.keys():
         #print(cle)

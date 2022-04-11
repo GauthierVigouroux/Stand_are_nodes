@@ -42,7 +42,8 @@ for element in StandListSTDToClean:
 StandListSTDClean = StandListSTDNotClean
 
 for element3 in StandListSTDClean:
-    print(element3.absolute_links)
+    for link in element3.absolute_links:
+        print(type(link))
     #print(element3.text)
 
 # for element4 in StandListXREFClean:
