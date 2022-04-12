@@ -1,11 +1,10 @@
-from operator import imod
 import jsonreading
 import PARSE_HTML.parse_html
 import json
 
 #Récupération du dico original
 ISODict = dict()
-ISODict = jsonreading.readJsonFile()
+ISODict = jsonreading.readJsonFileInit("isolist.json")
 compteur = 0
 #Récupération des infos sur le site de l'ISO afin de compléter les tuples des différents liens
 for standard in list(ISODict.items()):

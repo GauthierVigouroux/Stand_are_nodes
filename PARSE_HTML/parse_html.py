@@ -59,7 +59,7 @@ def isorequests(url,ISODict):
             for value in item.absolute_links:
                 link = value
             linktuple = linktuple + (link,)
-            ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = [unicodedata.normalize("NFKD",str(item.text)),str(item.absolute_links),linktuple]
+            ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = [unicodedata.normalize("NFKD",str(item.text)),item.absolute_links.pop(),linktuple]
     # Print Testing
     #for cle in ISODict.keys():
         #print(cle)
