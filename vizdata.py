@@ -27,7 +27,9 @@ for key,value in Dicoviz.items():
             iso_net.add_edge(url_src,url_dest[i])
             # print(e)
 
+#Utilisation d'algo
+iso_net.barnes_hut()
 
 #Affichage du réseau
-iso_net.toggle_physics(False)
+iso_net.toggle_physics(True)
 iso_net.show("iso_net.html")

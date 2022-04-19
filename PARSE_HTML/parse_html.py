@@ -1,3 +1,5 @@
+from cgi import print_arguments
+from locale import normalize
 from os import link
 import unicodedata
 from requests_html import HTMLSession
@@ -22,6 +24,16 @@ def isorequests(url,ISODict):
     # Parsing
     # Récupération de le liste des noms et liens de normes présent dans le documents
     StandListSTDNotClean = response.html.find('.sts-std-ref')
+    # Si les références de la norme ne sont pas alimenté en liens il faut récupérer le nom
+    if not StandListSTDNotClean:
+        StandListXREF = response.html.find('li')
+        for element in StandListXREF:
+            ISONameXREF = unicodedata.normalize("NFKD",element.text)
+            if ISONameXREF.startswith('—') == False and "Annex" not in ISONameXREF: # Test obligatoire sinon je récupère d'autres listes sur certaines normes / J'ai rajouté un test pour ne pas avoir le lien des annexes
+                print()
+                ISONameXREFSplit = ISONameXREF.split(",")
+
+
     # Récupération des normes présentes mais qui n'était pas encore publiée lors de la soumission de la norme
     #StandListXREF = response.html.find('li')
     
@@ -29,13 +41,16 @@ def isorequests(url,ISODict):
     #Nettoyage des liens avec ceux qui repointes vers le lien interrogé
     #Récupération du numéro de la norme
     FindStandNum = response.html.find('.v-label-h2')
-    ISOName = unicodedata.normalize("NFKD",FindStandNum[0].text)
-    ISOName = ISOName.split(" ")
-    if '-' in ISOName[1]:
-        ISONum = ISOName[1].split("-")
+    ISOName = unicodedata.normalize("NFKD",FindStandNum[0].text).replace('(en)','')
+    ISONameSplit = ISOName.split(" ")
+    if '-' in ISONameSplit[1]:
+        ISONum = ISONameSplit[1].split("-")
     else:
-        ISONum = ISOName[1].split(":")
+        ISONum = ISONameSplit[1].split(":")
     StandListSTDToClean = response.html.find('.sts-std-ref',containing=ISONum[0])
+    #Récupération du nom de la norme
+    FindStandName = response.html.find('.std-title')
+    StandName = FindStandName[0].text
     #Maintenant on vient vraiment nettoyer les liens
     for element in StandListSTDToClean:
         for element2 in StandListSTDNotClean:
@@ -55,11 +70,21 @@ def isorequests(url,ISODict):
     linktuple = tuple()
     for item in StandListSTDClean:
         #print(item.absolute_links)
-        if str(item.text).startswith('—') == False:
-            for value in item.absolute_links:
-                link = value
-            linktuple = linktuple + (link,)
-            ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = [unicodedata.normalize("NFKD",str(item.text)),item.absolute_links.pop(),linktuple]
+        #Certains items qui commencent par -- ne sont pas des liens vers des normes.
+        if item.text.startswith('—') == False:
+            # for value in item.absolute_links:
+            #     link = value
+            #     print(link)
+            # linktuple = linktuple + (link,)
+            #Test si la clé existe dans le dico afin de ne pas rewrite par dessus
+            if ISOName in ISODict == False:
+                print()
+                ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = {
+                    "nom":unicodedata.normalize("NFKD",str(item.text)),
+                    "lien":item.absolute_links.pop(),
+                    "dependance":list
+                    }
+            ISODict[ISOName]["dependance"].append(item.absolute_links)
     # Print Testing
     #for cle in ISODict.keys():
         #print(cle)
