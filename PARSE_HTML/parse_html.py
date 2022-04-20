@@ -1,5 +1,6 @@
 import unicodedata
 from requests_html import HTMLSession
+import re
 
 # Fonction de récupération et de parsing de l'html
 def isorequests(url,ISODict):
@@ -46,8 +47,8 @@ def isorequests(url,ISODict):
         ISONum = ISONameSplit[1].split(":")
     StandListSTDToClean = response.html.find('.sts-std-ref',containing=ISONum[0])
     #Récupération du nom de la norme
-    FindStandName = response.html.find('.std-title')
-    StandName = FindStandName[0].text
+    # FindStandName = response.html.find('.std-title')
+    # StandName = FindStandName[0].text
     #Maintenant on vient vraiment nettoyer les liens
     for element in StandListSTDToClean:
         for element2 in StandListSTDNotClean:
@@ -64,7 +65,7 @@ def isorequests(url,ISODict):
     # Afin d'être le plus précis possible je dois regarder au delas des références normatives
     # et prendre en compte .
 
-    linktuple = tuple()
+    # linktuple = tuple()
     for item in StandListSTDClean:
         #print(item.absolute_links)
         #Certains items qui commencent par -- ne sont pas des liens vers des normes.
@@ -74,15 +75,18 @@ def isorequests(url,ISODict):
             #     print(link)
             # linktuple = linktuple + (link,)
             #Test si la clé existe dans le dico afin de ne pas rewrite par dessus
-            if ISOName in ISODict == False:
+            if unicodedata.normalize("NFKD",str(item.text).split(',',1)[0]) not in ISODict:
+                print("Nouvelle clé")
                 ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = {
                     "nom":unicodedata.normalize("NFKD",str(item.text)),
-                    "lien":item.absolute_links.pop(),
-                    "dependance":list
+                    "lien":re.sub("ed-1:|ed-2:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",(''.join(item.absolute_links.pop()))),
+                    "dependance":[]
                     }
-            else:
-                linkform = item.absolute_links
-                ISODict[ISOName]["dependance"].append(''.join(linkform))
+            #Afin d'avoir les mêmes liens et ne pas avoir plusieurs nodes pour la même clé il faut retirer les 'ed-1' et 'v1' des liens
+            linkform = ''.join(item.absolute_links)
+            linkform = re.sub("ed-1:|ed-2:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",linkform)
+            #Ensuite on vient remplire le dico
+            ISODict[ISOName]["dependance"].append(linkform)
     # Print Testing
     #for cle in ISODict.keys():
         #print(cle)
