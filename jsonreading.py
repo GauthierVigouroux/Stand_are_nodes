@@ -3,9 +3,10 @@ import json
 #Lecture initial du fichier json
 def readJsonFileInit(file):
     # Doit retourner le dico sous sa bonne forme
-    fileObject = open(file, "r")
-    jsonContent = fileObject.read()
-    InitISODict = json.loads(jsonContent)
+    # fileObject = open(file, "r")
+    # jsonContent = fileObject.read()
+    with open(file, 'r') as fp:
+        InitISODict = json.load(fp)
     ISODict = dict()
     for cle,values in InitISODict.items():
         ISODict[cle]={

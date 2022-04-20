@@ -8,12 +8,12 @@ iso_net = Network(height='1500px', width='100%', bgcolor='#222222',font_color='w
 #Alimentation du réseau
 ##Création des nodes
 for key,value in Dicoviz.items():
-    iso_net.add_node(Dicoviz[key][1],label=key)
+    iso_net.add_node(Dicoviz[key]["lien"],label=key)
 
 ##Creation des edges avec gestions des exceptions
 for key,value in Dicoviz.items():
-    url_src = Dicoviz[key][1]
-    url_dest = Dicoviz[key][2]
+    url_src = Dicoviz[key]["lien"]
+    url_dest = Dicoviz[key]["dependance"]
     for i in range(len(url_dest)):
         try:
             iso_net.add_edge(url_src,url_dest[i])

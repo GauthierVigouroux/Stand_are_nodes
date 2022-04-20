@@ -1,6 +1,3 @@
-from cgi import print_arguments
-from locale import normalize
-from os import link
 import unicodedata
 from requests_html import HTMLSession
 
@@ -38,7 +35,7 @@ def isorequests(url,ISODict):
     #StandListXREF = response.html.find('li')
     
 
-    #Nettoyage des liens avec ceux qui repointes vers le lien interrogé
+    #Nettoyage des liens avec ceux qui repointes vers le lien interrogé (Les points où il y a ref a la norme analysé)
     #Récupération du numéro de la norme
     FindStandNum = response.html.find('.v-label-h2')
     ISOName = unicodedata.normalize("NFKD",FindStandNum[0].text).replace('(en)','')
@@ -78,13 +75,14 @@ def isorequests(url,ISODict):
             # linktuple = linktuple + (link,)
             #Test si la clé existe dans le dico afin de ne pas rewrite par dessus
             if ISOName in ISODict == False:
-                print()
                 ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = {
                     "nom":unicodedata.normalize("NFKD",str(item.text)),
                     "lien":item.absolute_links.pop(),
                     "dependance":list
                     }
-            ISODict[ISOName]["dependance"].append(item.absolute_links)
+            else:
+                linkform = item.absolute_links
+                ISODict[ISOName]["dependance"].append(''.join(linkform))
     # Print Testing
     #for cle in ISODict.keys():
         #print(cle)
