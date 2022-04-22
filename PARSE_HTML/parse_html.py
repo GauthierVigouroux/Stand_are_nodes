@@ -69,7 +69,7 @@ def isorequests(url,ISODict):
     for item in StandListSTDClean:
         #print(item.absolute_links)
         #Certains items qui commencent par -- ne sont pas des liens vers des normes.
-        if item.text.startswith('—') == False:
+        if item.text.startswith('—') == False or item.text.startswith('ISO') == False:
             # for value in item.absolute_links:
             #     link = value
             #     print(link)
@@ -79,14 +79,16 @@ def isorequests(url,ISODict):
                 print("Nouvelle clé")
                 ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = {
                     "nom":unicodedata.normalize("NFKD",str(item.text)),
-                    "lien":re.sub("ed-1:|ed-2:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",(''.join(item.absolute_links.pop()))),
+                    "lien":re.sub("ed-1:|ed-2:|ed-3:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",(''.join(item.absolute_links.pop()))).split(":clause")[0],
                     "dependance":[]
                     }
             #Afin d'avoir les mêmes liens et ne pas avoir plusieurs nodes pour la même clé il faut retirer les 'ed-1' et 'v1' des liens
             linkform = ''.join(item.absolute_links)
-            linkform = re.sub("ed-1:|ed-2:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",linkform)
+            linkform = re.sub("ed-1:|ed-2:|ed-3:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",linkform)
+            #Pour le nettoyer encore, on split pour retirer ce qu'il se trouverai derrière le ':en', on prend le séparateur ":clause" qui se trouve toujours derrière le ":en"
+            linkform = linkform.split(":clause")
             #Ensuite on vient remplire le dico
-            ISODict[ISOName]["dependance"].append(linkform)
+            ISODict[ISOName]["dependance"].append(linkform[0])
     # Print Testing
     #for cle in ISODict.keys():
         #print(cle)

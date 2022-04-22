@@ -8,19 +8,19 @@
         "nom": "ISO 19101-2:2018 Information géographique — Modèle de réference — Partie 2: Imagerie"
     },
     "ISO 19103:2015": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19103:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
         "nom": "ISO 19103:2015 Geographic information — Conceptual schema language"
     },
     "ISO 19104:2016": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19104:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19104:en",
         "nom": "ISO 19104:2016 Geographic information — Terminology"
     },
     "ISO 19105:2000": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19105:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19105:en",
         "nom": "ISO 19105:2000 Geographic information — Conformance and testing"
     },
     "ISO 19106:2004": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19106:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19106:en",
         "nom": "ISO 19106:2004 Geographic information — Profiles"
     },
     "ISO 19107:2019": {
@@ -28,7 +28,7 @@
         "nom": "ISO 19107:2019 Geographic information — Spatial schema"
     },
     "ISO 19108:2002": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19108:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
         "nom": "ISO 19108:2002 Geographic information — Temporal schema"
     },
     "ISO 19109:2015": {
@@ -76,7 +76,7 @@
         "nom": "ISO 19123:2005 Geographic information — Schema for coverage geometry and functions"
     },
     "ISO 19125-1:2004": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19125:-1:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19125:-1:en",
         "nom": "ISO 19125-1:2004 Geographic information — Simple feature access — Part 1: Common architecture"
     },
     "ISO 19126:2021": {
@@ -84,7 +84,7 @@
         "nom": "ISO 19126:2021 Geographic information — Feature concept dictionaries and registers"
     },
     "ISO 19127:2019": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19127:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19127:en",
         "nom": "ISO 19127:2019 Geographic information — Geodetic register"
     },
     "ISO 19128:2005": {
@@ -92,7 +92,7 @@
         "nom": "ISO 19128:2005 Geographic information — Web map server interface"
     },
     "ISO 19130-1:2018": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19130:-1:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19130:-1:en",
         "nom": "ISO 19130-1:2018 Geographic information — Imagery sensor models for geopositioning — Part 1: Fundamentals"
     },
     "ISO 19131:2007": {
@@ -144,7 +144,7 @@
         "nom": "ISO 19144-1:2009 Geographic information — Classification systems — Part 1: Classification system structure"
     },
     "ISO 19144-2:2012": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19144:-2:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19144:-2:en",
         "nom": "ISO 19144-2:2012 Geographic information - Classification systems — Part 2: Land Cover Meta Language (LCML)"
     },
     "ISO 19145:2013": {
@@ -156,7 +156,7 @@
         "nom": "ISO 19146:2018 Geographic information — Cross-domain vocabularies"
     },
     "ISO 19147:2015": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19147:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19147:en",
         "nom": "ISO 19147:2015 Geographic information — Transfer Nodes"
     },
     "ISO 19148:2021": {
@@ -164,7 +164,7 @@
         "nom": "ISO 19148:2021 Geographic information — Linear referencing"
     },
     "ISO 19149:2011": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19149:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19149:en",
         "nom": "ISO 19149:2011 Geographic information — Rights expression language for geographic information — GeoREL"
     },
     "ISO 19150-2:2015": {
@@ -172,7 +172,7 @@
         "nom": "ISO 19150-2:2015 Geographic information — Ontology — Part 2: Rules for developing ontologies in the Web Ontology Language (OWL)"
     },
     "ISO 19150-4:2019": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19150:-4:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19150:-4:en",
         "nom": "ISO 19150-4:2019 Geographic information — Ontology — Part 4: Service ontology"
     },
     "ISO 19152:2012": {
@@ -180,11 +180,11 @@
         "nom": "ISO 19152:2012 Geographic information — Land Administration Domain Model (LADM)"
     },
     "ISO 19154:2014": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19154:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19154:en",
         "nom": "ISO 19154:2014 Geographic information — Ubiquitous public access — Reference model"
     },
     "ISO 19155-2:2017": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19155:-2:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19155:-2:en",
         "nom": "ISO 19155-2:2017 Geographic information — Place Identifier (PI) architecture — Part 2: Place Identifier (PI) linking"
     },
     "ISO 19155:2012": {
@@ -212,15 +212,15 @@
         "nom": "ISO 19161-1:2020 Geographic information — Geodetic references — Part 1: International terrestrial reference system (ITRS)"
     },
     "ISO 19162:2019": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19162:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19162:en",
         "nom": "ISO 19162:2019 Geographic information — Well-known text representation of coordinate reference systems"
     },
     "ISO 19165-1:2018": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19165:-1:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19165:-1:en",
         "nom": "ISO 19165-1:2018 Geographic information — Preservation of digital data and metadata — Part 1: Fundamentals"
     },
     "ISO 19165-2:2020": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:19165:-2:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19165:-2:en",
         "nom": "ISO 19165-2:2020 Geographic information — Preservation of digital data and metadata — Part 2: Content specifications for Earth observation data and derived digital products"
     },
     "ISO 19168-1:2020": {
@@ -232,23 +232,23 @@
         "nom": "ISO 19170-1:2021 Geographic information — Discrete Global Grid Systems Specifications — Part 1: Core Reference System and Operations, and Equal Area Earth Reference System"
     },
     "ISO/TR 19121:2000": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:tr:19121:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:tr:19121:en",
         "nom": "ISO/TR 19121:2000 Geographic information — Imagery and gridded data"
     },
     "ISO/TR 19167:2019": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:tr:19167:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:tr:19167:en",
         "nom": "ISO/TR 19167:2019 Application of ubiquitous public access to-geographic information to an air quality information service"
     },
     "ISO/TR 19169:2021": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:tr:19169:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:tr:19169:en",
         "nom": "ISO/TR 19169:2021 Geographic Information — Gap-analysis: mapping and describing the differences between the current GDF and ISO/TC 211 conceptual models to suggest ways to harmonize and resolve conflicting issues"
     },
     "ISO/TS 19115-3:2016": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19115:-3:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19115:-3:en",
         "nom": "ISO/TS 19115-3:2016 Geographic information — Metadata — Part 3: XML schema implementation for fundamental concepts"
     },
     "ISO/TS 19129:2009": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19129:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19129:en",
         "nom": "ISO/TS 19129:2009 Geographic information — Imagery, gridded and coverage data framework"
     },
     "ISO/TS 19130-2:2014": {
@@ -256,43 +256,43 @@
         "nom": "ISO/TS 19130-2:2014 Geographic information — Imagery sensor models for geopositioning — Part 2: SAR, InSAR, lidar and sonar"
     },
     "ISO/TS 19130-3:2022": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19130:-3:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19130:-3:en",
         "nom": "ISO/TS 19130-3:2022 Geographic information — Imagery sensor models for geopositioning — Part 3: Implementation schema"
     },
     "ISO/TS 19139-1:2019": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19139:-1:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:-1:en",
         "nom": "ISO/TS 19139-1:2019 Geographic information — XML schema implementation — Part 1: Encoding rules"
     },
     "ISO/TS 19150-1:2012": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19150:-1:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19150:-1:en",
         "nom": "ISO/TS 19150-1:2012 Geographic information — Ontology — Part 1: Framework"
     },
     "ISO/TS 19158:2012": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19158:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19158:en",
         "nom": "ISO/TS 19158:2012 Geographic information — Quality assurance of data supply"
     },
     "ISO/TS 19159-1:2014": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19159:-1:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-1:en",
         "nom": "ISO/TS 19159-1:2014 Geographic information — Calibration and validation of remote sensing imagery sensors and data — Part 1: Optical sensors"
     },
     "ISO/TS 19159-2:2016": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19159:-2:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-2:en",
         "nom": "ISO/TS 19159-2:2016 Geographic information — Calibration and validation of remote sensing imagery sensors and data — Part 2: Lidar"
     },
     "ISO/TS 19159-3:2018": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19159:-3:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-3:en",
         "nom": "ISO/TS 19159-3:2018 Geographic information — Calibration and validation of remote sensing imagery sensors and data — Part 3: SAR/InSAR"
     },
     "ISO/TS 19163-1:2016": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19163:-1:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19163:-1:en",
         "nom": "ISO/TS 19163-1:2016 Geographic information — Content components and encoding rules for imagery and gridded data — Part 1: Content model"
     },
     "ISO/TS 19163-2:2020": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19163:-2:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19163:-2:en",
         "nom": "ISO/TS 19163-2:2020 Geographic information — Content components and encoding rules for imagery and gridded data — Part 2: Implementation schema"
     },
     "ISO/TS 19166:2021": {
-        "lien": "https://www.iso.org/obp/ui/fr/#iso:std:iso:ts:19166:en",
+        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:ts:19166:en",
         "nom": "ISO/TS 19166:2021 Geographic information — BIM to GIS conceptual mapping (B2GM)"
     }
 }
