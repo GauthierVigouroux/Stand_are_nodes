@@ -26,13 +26,13 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:10646:en": {
         "dependance": [],
-        "nom": "ISO/IEC 10646:2003",
-        "short": "ISO/IEC 10646:2003"
+        "nom": "ISO/IEC 10646",
+        "short": "ISO/IEC 10646"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-1:en": {
         "dependance": [],
-        "nom": "ISO/IEC 10746-1",
-        "short": "ISO/IEC 10746-1"
+        "nom": "ISO/IEC 10746-1:1998",
+        "short": "ISO/IEC 10746-1:1998"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-2:en": {
         "dependance": [],
@@ -46,13 +46,13 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:en": {
         "dependance": [],
-        "nom": "ISO/IEC 10746",
-        "short": "ISO/IEC 10746"
+        "nom": "ISO/IEC 10746 (all parts)",
+        "short": "ISO/IEC 10746 (all parts)"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:11179:-3:en": {
         "dependance": [],
-        "nom": "ISO/IEC 11179-3:2003",
-        "short": "ISO/IEC 11179-3:2003"
+        "nom": "ISO/IEC 11179-3:2013",
+        "short": "ISO/IEC 11179-3:2013"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:11179:-6:en": {
         "dependance": [],
@@ -66,8 +66,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:11404:en": {
         "dependance": [],
-        "nom": "ISO/IEC 11404:2007",
-        "short": "ISO/IEC 11404:2007"
+        "nom": "ISO/IEC 11404",
+        "short": "ISO/IEC 11404"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:11578:en": {
         "dependance": [],
@@ -96,8 +96,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:13249:-3:en": {
         "dependance": [],
-        "nom": "ISO/IEC 13249-3:2011",
-        "short": "ISO/IEC 13249-3:2011"
+        "nom": "ISO/IEC 13249-3",
+        "short": "ISO/IEC 13249-3"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:13249:-5:en": {
         "dependance": [],
@@ -126,8 +126,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:15444:-1:en": {
         "dependance": [],
-        "nom": "ISO/IEC 15444-1:2016",
-        "short": "ISO/IEC 15444-1:2016"
+        "nom": "ISO/IEC 15444-1",
+        "short": "ISO/IEC 15444-1"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:15444:-2:en": {
         "dependance": [],
@@ -156,8 +156,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en": {
         "dependance": [],
-        "nom": "ISO/IEC 19501:2005",
-        "short": "ISO/IEC 19501:2005"
+        "nom": "ISO/IEC 19501",
+        "short": "ISO/IEC 19501"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:19505:-1:en": {
         "dependance": [],
@@ -201,8 +201,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:21000:-5:en": {
         "dependance": [],
-        "nom": "ISO/IEC 21000-5",
-        "short": "ISO/IEC 21000-5"
+        "nom": "ISO/IEC 21000-5:2004",
+        "short": "ISO/IEC 21000-5:2004"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:-15:en": {
         "dependance": [],
@@ -241,8 +241,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:646:en": {
         "dependance": [],
-        "nom": "ISO/IEC 646:1991",
-        "short": "ISO/IEC 646:1991"
+        "nom": "ISO/IEC 646",
+        "short": "ISO/IEC 646"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:6523:en": {
         "dependance": [],
@@ -306,7 +306,7 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:9834:-8:en": {
         "dependance": [],
-        "nom": "ISO/IEC 9834-8",
+        "nom": "ISO/IEC 9834-8,",
         "short": "ISO/IEC 9834-8"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:9973:en": {
@@ -356,8 +356,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:14252:en": {
         "dependance": [],
-        "nom": "ISO/IEC TR 14252:1996",
-        "short": "ISO/IEC TR 14252:1996"
+        "nom": "ISO/IEC TR 14252",
+        "short": "ISO/IEC TR 14252"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:19764:en": {
         "dependance": [],
@@ -376,18 +376,18 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:10241:-1:en": {
         "dependance": [],
-        "nom": "ISO 10241-1:2011",
+        "nom": "ISO 10241-1:2011, 3.1.2",
         "short": "ISO 10241-1:2011"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:10241:-2:en": {
         "dependance": [],
-        "nom": "ISO 10241-2",
-        "short": "ISO 10241-2"
+        "nom": "ISO 10241-2:2012",
+        "short": "ISO 10241-2:2012"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:10303:-11:en": {
         "dependance": [],
-        "nom": "ISO 10303-11:2004",
-        "short": "ISO 10303-11:2004"
+        "nom": "ISO 10303-11",
+        "short": "ISO 10303-11"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:10303:-21:en": {
         "dependance": [],
@@ -411,8 +411,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:10303:-31:en": {
         "dependance": [],
-        "nom": "ISO 10303-31",
-        "short": "ISO 10303-31"
+        "nom": "ISO 10303-31:1994",
+        "short": "ISO 10303-31:1994"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:1087:-1:en": {
         "dependance": [],
@@ -461,8 +461,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:14721:en": {
         "dependance": [],
-        "nom": "ISO 14721:2012",
-        "short": "ISO 14721:2012"
+        "nom": "ISO 14721",
+        "short": "ISO 14721"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:14825:en": {
         "dependance": [],
@@ -481,8 +481,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:15836:en": {
         "dependance": [],
-        "nom": "ISO 15836:2009",
-        "short": "ISO 15836:2009"
+        "nom": "ISO 15836",
+        "short": "ISO 15836"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:15924:en": {
         "dependance": [],
@@ -511,7 +511,7 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:16919:en": {
         "dependance": [],
-        "nom": "ISO 16919,",
+        "nom": "ISO 16919",
         "short": "ISO 16919"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19011:en": {
@@ -520,233 +520,59 @@
         "short": "ISO 19011:2002"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:10000:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10303:-11:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:14825:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:15836:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19106:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19149:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:9007:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19150:-1:en"
-        ],
-        "nom": "ISO 19101-1:2014 Geographic information — Reference model — Part 1: Fundamentals",
+        "dependance": [],
+        "nom": "ISO 19101-1:2014",
         "short": "ISO 19101-1:2014"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19101:-2:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iec:61966:-2-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:12640:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:12640:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:12640:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:14721:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:15930:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19117:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:22028:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:80000:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:80000:-7:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:9973:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:12087:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:12087:-5:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:13249:-5:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:13249:-6:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:15444:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:15444:-4:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:18023:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19129:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19130:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19163:-1:en"
-        ],
-        "nom": "ISO 19101-2:2018 Information géographique — Modèle de réference — Partie 2: Imagerie",
+        "dependance": [],
+        "nom": "ISO 19101-2:2018",
         "short": "ISO 19101-2:2018"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19101:en": {
         "dependance": [],
-        "nom": "ISO 19101:2002",
-        "short": "ISO 19101:2002"
+        "nom": "ISO 19101",
+        "short": "ISO 19101"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19103:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:639:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3166:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11404:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19505:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:4217:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10646:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:9007:en"
-        ],
-        "nom": "ISO 19103:2015 Geographic information — Conceptual schema language",
-        "short": "ISO 19103:2015"
+        "dependance": [],
+        "nom": "ISO 19103",
+        "short": "ISO 19103"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19104:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:10241:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:639:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:690:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:704:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:860:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10241:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10241:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:12615:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:6523:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10241:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:704:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:1087:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:5127:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:15924:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en"
-        ],
-        "nom": "ISO 19104:2016 Geographic information — Terminology",
-        "short": "ISO 19104:2016"
+        "dependance": [],
+        "nom": "ISO 19104",
+        "short": "ISO 19104"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19105:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:10303:-31:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:17025:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:9646:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:9646:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:9646:-5:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10303:-31:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10641:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:13233:en"
-        ],
-        "nom": "ISO 19105:2000 Geographic information — Conformance and testing",
-        "short": "ISO 19105:2000"
+        "dependance": [],
+        "nom": "ISO 19105",
+        "short": "ISO 19105"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19106:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19105:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:10000:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:10000:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:10000:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:10000:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19114:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:10000:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:19120:en"
-        ],
-        "nom": "ISO 19106:2004 Geographic information — Profiles",
+        "dependance": [],
+        "nom": "ISO 19106:2004",
         "short": "ISO 19106:2004"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19107:en": {
         "dependance": [],
-        "nom": "ISO 19107:2019 Geographic information — Spatial schema",
-        "short": "ISO 19107:2019"
+        "nom": "ISO 19107",
+        "short": "ISO 19107"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19108:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:31:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:1000:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11404:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:31:-2:en"
-        ],
-        "nom": "ISO 19108:2002 Geographic information — Temporal schema",
-        "short": "ISO 19108:2002"
+        "dependance": [],
+        "nom": "ISO 19108",
+        "short": "ISO 19108"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19109:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19156:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19505:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19105:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19114:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19143:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19150:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en"
-        ],
-        "nom": "ISO 19109:2015 Geographic information — Rules for application schema",
-        "short": "ISO 19109:2015"
+        "dependance": [],
+        "nom": "ISO 19109",
+        "short": "ISO 19109"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19110:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19126:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19117:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19115:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19117:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19126:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en"
-        ],
-        "nom": "ISO 19110:2016 Geographic information — Methodology for feature cataloguing",
-        "short": "ISO 19110:2016"
+        "dependance": [],
+        "nom": "ISO 19110:2005",
+        "short": "ISO 19110:2005"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19111:-2:en": {
         "dependance": [],
@@ -772,237 +598,63 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19111:en": {
         "dependance": [],
-        "nom": "ISO 19111:2003",
-        "short": "ISO 19111:2003"
+        "nom": "ISO 19111",
+        "short": "ISO 19111"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19112:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19148:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19160:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19148:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19160:-1:en"
-        ],
-        "nom": "ISO 19112:2019 Geographic information — Spatial referencing by geographic identifiers",
+        "dependance": [],
+        "nom": "ISO 19112:2019",
         "short": "ISO 19112:2019"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19113:en": {
         "dependance": [],
-        "nom": "ISO 19113:2002",
-        "short": "ISO 19113:2002"
+        "nom": "ISO 19113",
+        "short": "ISO 19113"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19114:en": {
         "dependance": [],
-        "nom": "ISO 19114:2003",
-        "short": "ISO 19114:2003"
+        "nom": "ISO 19114",
+        "short": "ISO 19114"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:639:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3166:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:4217:ed-7:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19106:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:646:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:690:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:5127:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10646:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11179:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:15489:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:15511:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:15836:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19104:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19117:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:19121:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:23081:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:23950:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:24619:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:82045:-5:en"
-        ],
-        "nom": "ISO 19115-1:2014 Geographic information — Metadata — Part 1: Fundamentals",
-        "short": "ISO 19115-1:2014"
+        "dependance": [],
+        "nom": "ISO 19115-1: 2014",
+        "short": "ISO 19115-1: 2014"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:-17:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8879:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:19121:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19101:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19130:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:en"
-        ],
-        "nom": "ISO 19115-2:2019 Geographic information — Metadata — Part 2: Extensions for acquisition and processing",
+        "dependance": [],
+        "nom": "ISO 19115-2:2019",
         "short": "ISO 19115-2:2019"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19115:en": {
         "dependance": [],
-        "nom": "ISO 19115",
-        "short": "ISO 19115"
+        "nom": "ISO 19115:2003",
+        "short": "ISO 19115:2003"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19116:en": {
         "dependance": [],
-        "nom": "ISO 19116:2019 Geographic information — Positioning services",
-        "short": "ISO 19116:2019"
+        "nom": "ISO 19116:2004",
+        "short": "ISO 19116:2004"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19117:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19128:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19156:en"
-        ],
-        "nom": "ISO 19117:2012 Geographic information — Portrayal",
+        "dependance": [],
+        "nom": "ISO 19117:2012",
         "short": "ISO 19117:2012"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19118:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10646:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19104:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10646:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10303:-21:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:8211:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2022:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:8211:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:8859:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8879:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:9834:-8:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10303:-21:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11179:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11578:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19104:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19105:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19106:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19113:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19114:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19117:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:19120:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en"
-        ],
-        "nom": "ISO 19118:2011 Geographic information — Encoding",
+        "dependance": [],
+        "nom": "ISO 19118:2011",
         "short": "ISO 19118:2011"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19119:amd:1:en": {
         "dependance": [],
-        "nom": "ISO 19119:2005/Amd 1:2008",
-        "short": "ISO 19119:2005/Amd 1:2008"
+        "nom": "ISO 19119:2005",
+        "short": "ISO 19119:2005"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19119:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10303:-22:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10303:-11:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10303:-22:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19105:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19117:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:19121:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19125:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19128:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19142:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19143:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19150:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19153:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:9075:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11179:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:14882:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19505:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19510:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19793:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-2:en"
-        ],
-        "nom": "ISO 19119:2016 Geographic information — Services",
-        "short": "ISO 19119:2016"
+        "dependance": [],
+        "nom": "ISO 19119:2005",
+        "short": "ISO 19119:2005"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19123:-2:en": {
         "dependance": [],
@@ -1010,29 +662,13 @@
         "short": "ISO 19123-2"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19123:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en"
-        ],
-        "nom": "ISO 19123:2005 Geographic information — Schema for coverage geometry and functions",
+        "dependance": [],
+        "nom": "ISO 19123:2005",
         "short": "ISO 19123:2005"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19125:-1:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en"
-        ],
-        "nom": "ISO 19125-1:2004 Geographic information — Simple feature access — Part 1: Common architecture",
+        "dependance": [],
+        "nom": "ISO 19125-1:2004",
         "short": "ISO 19125-1:2004"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19125:-2:en": {
@@ -1046,31 +682,9 @@
         "short": "ISO 19125"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19126:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:646:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:9973:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11404:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19106:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19131:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:80000:-1:en"
-        ],
-        "nom": "ISO 19126:2021 Geographic information — Feature concept dictionaries and registers",
-        "short": "ISO 19126:2021"
+        "dependance": [],
+        "nom": "ISO 19126:2009",
+        "short": "ISO 19126:2009"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19127:en": {
         "dependance": [
@@ -1102,164 +716,39 @@
         "short": "ISO 19127:2019"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19128:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19117:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19125:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:6709:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:8632:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:14252:en"
-        ],
-        "nom": "ISO 19128:2005 Geographic information — Web map server interface",
+        "dependance": [],
+        "nom": "ISO 19128:2005",
         "short": "ISO 19128:2005"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19130:-1:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:12087:-5:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:19120:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:19121:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-2:en"
-        ],
-        "nom": "ISO 19130-1:2018 Geographic information — Imagery sensor models for geopositioning — Part 1: Fundamentals",
-        "short": "ISO 19130-1:2018"
+        "dependance": [],
+        "nom": "ISO 19130-1",
+        "short": "ISO 19130-1"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19131:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:639:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19113:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19117:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19138:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en"
-        ],
-        "nom": "ISO 19131:2007 Geographic information — Data product specifications",
+        "dependance": [],
+        "nom": "ISO 19131:2007",
         "short": "ISO 19131:2007"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19132:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19101:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:14825:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:9075:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11404:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:14825:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19101:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19141:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:639:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19117:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19128:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19134:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:10000:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:14252:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:21000:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:21000:-5:en"
-        ],
-        "nom": "ISO 19132:2007 Geographic information — Location-based services — Reference model",
+        "dependance": [],
+        "nom": "ISO 19132:2007",
         "short": "ISO 19132:2007"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19133:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:14825:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:14825:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11404:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:14825:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en"
-        ],
-        "nom": "ISO 19133:2005 Geographic information — Location-based services — Tracking and navigation",
-        "short": "ISO 19133:2005"
+        "dependance": [],
+        "nom": "ISO 19133",
+        "short": "ISO 19133"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19134:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19132:en"
-        ],
-        "nom": "ISO 19134:2007 Geographic information — Location-based services  — Multimodal routing and navigation",
-        "short": "ISO 19134:2007"
+        "dependance": [],
+        "nom": "ISO 19134",
+        "short": "ISO 19134"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19135:-1:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:6523:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19505:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:704:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11179:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11179:-6:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19505:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19505:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19104:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:19764:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:9973:en"
-        ],
-        "nom": "ISO 19135-1:2015 Geographic information — Procedures for item registration — Part 1: Fundamentals",
-        "short": "ISO 19135-1:2015"
+        "dependance": [],
+        "nom": "ISO 19135-1",
+        "short": "ISO 19135-1"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19135:en": {
         "dependance": [],
@@ -1268,8 +757,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19136:-1:en": {
         "dependance": [],
-        "nom": "ISO 19136-1:2020 Geographic information — Geography Markup Language (GML) — Part 1: Fundamentals",
-        "short": "ISO 19136-1:2020"
+        "nom": "ISO 19136-1",
+        "short": "ISO 19136-1"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19136:-2:en": {
         "dependance": [
@@ -1323,95 +812,28 @@
         "short": "ISO 19137:2007"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19141:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en"
-        ],
-        "nom": "ISO 19141:2008 Geographic information — Schema for moving features",
+        "dependance": [],
+        "nom": "ISO 19141:2008",
         "short": "ISO 19141:2008"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19142:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19143:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19128:en"
-        ],
-        "nom": "ISO 19142:2010 Geographic information — Web Feature Service",
+        "dependance": [],
+        "nom": "ISO 19142:2010",
         "short": "ISO 19142:2010"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19143:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19142:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19142:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19125:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19128:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19142:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:13249:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:14651:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:14977:en"
-        ],
-        "nom": "ISO 19143:2010 Geographic information — Filter encoding",
+        "dependance": [],
+        "nom": "ISO 19143:2010",
         "short": "ISO 19143:2010"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19144:-1:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:13211:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19129:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19126:en"
-        ],
-        "nom": "ISO 19144-1:2009 Geographic information — Classification systems — Part 1: Classification system structure",
-        "short": "ISO 19144-1:2009"
+        "dependance": [],
+        "nom": "ISO 19144-1",
+        "short": "ISO 19144-1"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19144:-2:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en"
-        ],
-        "nom": "ISO 19144-2:2012 Geographic information - Classification systems — Part 2: Land Cover Meta Language (LCML)",
+        "dependance": [],
+        "nom": "ISO 19144-2:2012",
         "short": "ISO 19144-2:2012"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19145:en": {
@@ -1501,30 +923,9 @@
         "short": "ISO 19147:2015"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19148:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19133:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19141:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:20524:-1:en"
-        ],
-        "nom": "ISO 19148:2021 Geographic information — Linear referencing",
-        "short": "ISO 19148:2021"
+        "dependance": [],
+        "nom": "ISO 19148",
+        "short": "ISO 19148"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19149:en": {
         "dependance": [
@@ -1541,25 +942,13 @@
             "https://www.iso.org/obp/ui/#iso:std:iso-iec:21000:-5:en",
             "https://www.iso.org/obp/ui/#iso:std:iso:19153:en"
         ],
-        "nom": "ISO 19149:2011 Geographic information — Rights expression language for geographic information — GeoREL",
+        "nom": "ISO 19149:2011",
         "short": "ISO 19149:2011"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19150:-2:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19112:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19156:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:en"
-        ],
-        "nom": "ISO 19150-2:2015 Geographic information — Ontology — Part 2: Rules for developing ontologies in the Web Ontology Language (OWL)",
-        "short": "ISO 19150-2:2015"
+        "dependance": [],
+        "nom": "ISO 19150-2",
+        "short": "ISO 19150-2"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19150:-4:en": {
         "dependance": [
@@ -1603,31 +992,9 @@
         "short": "ISO 19150 (all parts)"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19152:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19131:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:4217:ed-7:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:13240:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:14825:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19105:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19125:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19156:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19106:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19126:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19131:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19132:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19156:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en"
-        ],
-        "nom": "ISO 19152:2012 Geographic information — Land Administration Domain Model (LADM)",
-        "short": "ISO 19152:2012"
+        "dependance": [],
+        "nom": "ISO 19152",
+        "short": "ISO 19152"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19153:en": {
         "dependance": [],
@@ -1692,67 +1059,18 @@
             "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
             "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en"
         ],
-        "nom": "ISO 19155:2012 Geographic information — Place Identifier (PI) architecture",
+        "nom": "ISO 19155:2012",
         "short": "ISO 19155:2012"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19156:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19501:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19101:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19138:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19143:en"
-        ],
-        "nom": "ISO 19156:2011 Geographic information — Observations and measurements",
+        "dependance": [],
+        "nom": "ISO 19156:2011",
         "short": "ISO 19156:2011"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19157:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19138:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19114:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19113:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3534:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19135:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:2859:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3534:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:3951:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:6709:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:8601:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:9000:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:10303:-227:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19105:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19131:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:-4:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:11179:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19129:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19156:en"
-        ],
-        "nom": "ISO 19157:2013 Geographic information — Data quality",
-        "short": "ISO 19157:2013"
+        "dependance": [],
+        "nom": "ISO 19157",
+        "short": "ISO 19157"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19160:-1:en": {
         "dependance": [
@@ -1771,7 +1089,7 @@
             "https://www.iso.org/obp/ui/#iso:std:iso:15836:en",
             "https://www.iso.org/obp/ui/#iso:std:iso:21127:en"
         ],
-        "nom": "ISO 19160-1:2015 Addressing — Part 1: Conceptual model",
+        "nom": "ISO 19160-1:2015",
         "short": "ISO 19160-1:2015"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19160:-3:en": {
@@ -1806,8 +1124,8 @@
             "https://www.iso.org/obp/ui/#iso:std:iso-iec:9075:-2:en",
             "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en"
         ],
-        "nom": "ISO 19162:2019 Geographic information — Well-known text representation of coordinate reference systems",
-        "short": "ISO 19162:2019"
+        "nom": "ISO 19162:2015",
+        "short": "ISO 19162:2015"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19165:-1:en": {
         "dependance": [
@@ -1906,13 +1224,13 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:20524:-1:en": {
         "dependance": [],
-        "nom": "ISO 20524-1",
-        "short": "ISO 20524-1"
+        "nom": "ISO 20524-1:2020",
+        "short": "ISO 20524-1:2020"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:20524:-2:en": {
         "dependance": [],
-        "nom": "ISO 20524-2",
-        "short": "ISO 20524-2"
+        "nom": "ISO 20524-2:2020",
+        "short": "ISO 20524-2:2020"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:21127:en": {
         "dependance": [],
@@ -1956,13 +1274,13 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en": {
         "dependance": [],
-        "nom": "ISO 3166-1",
-        "short": "ISO 3166-1"
+        "nom": "ISO 3166-1:2013",
+        "short": "ISO 3166-1:2013"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:3166:en": {
         "dependance": [],
-        "nom": "ISO 3166 (all parts)",
-        "short": "ISO 3166 (all parts)"
+        "nom": "ISO 3166",
+        "short": "ISO 3166"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:31:-1:en": {
         "dependance": [],
@@ -2006,8 +1324,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:5725:-3:en": {
         "dependance": [],
-        "nom": "ISO 5725-3",
-        "short": "ISO 5725-3"
+        "nom": "ISO 5725-3:1994",
+        "short": "ISO 5725-3:1994"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:639:-1:en": {
         "dependance": [],
@@ -2021,8 +1339,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:639:en": {
         "dependance": [],
-        "nom": "ISO 639 (all parts)",
-        "short": "ISO 639 (all parts)"
+        "nom": "ISO 639",
+        "short": "ISO 639"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:6523:en": {
         "dependance": [],
@@ -2036,8 +1354,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:690:en": {
         "dependance": [],
-        "nom": "ISO 690",
-        "short": "ISO 690"
+        "nom": "ISO 690:2010",
+        "short": "ISO 690:2010"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:704:en": {
         "dependance": [],
@@ -2046,8 +1364,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:80000:-1:en": {
         "dependance": [],
-        "nom": "ISO 80000-1:2009",
-        "short": "ISO 80000-1:2009"
+        "nom": "ISO 80000-1",
+        "short": "ISO 80000-1"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:80000:-7:en": {
         "dependance": [],
@@ -2071,8 +1389,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:8601:-1:en": {
         "dependance": [],
-        "nom": "ISO 8601-1",
-        "short": "ISO 8601-1"
+        "nom": "ISO 8601-1:2019",
+        "short": "ISO 8601-1:2019"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:8601:-2:en": {
         "dependance": [],
@@ -2081,8 +1399,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:8601:en": {
         "dependance": [],
-        "nom": "ISO 8601:2004",
-        "short": "ISO 8601:2004"
+        "nom": "ISO 8601",
+        "short": "ISO 8601"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:860:en": {
         "dependance": [],
@@ -2091,8 +1409,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:8879:en": {
         "dependance": [],
-        "nom": "ISO 8879",
-        "short": "ISO 8879"
+        "nom": "ISO 8879:1986",
+        "short": "ISO 8879:1986"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:9000:en": {
         "dependance": [],
@@ -2111,13 +1429,13 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:tr:19120:en": {
         "dependance": [],
-        "nom": "ISO/TR 19120:2001",
-        "short": "ISO/TR 19120:2001"
+        "nom": "ISO/TR 19120",
+        "short": "ISO/TR 19120"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:tr:19121:en": {
         "dependance": [],
-        "nom": "ISO/TR 19121:2000 Geographic information — Imagery and gridded data",
-        "short": "ISO/TR 19121:2000"
+        "nom": "ISO/TR 19121",
+        "short": "ISO/TR 19121"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:tr:19167:en": {
         "dependance": [],
@@ -2183,86 +1501,19 @@
         "short": "ISO/TS 19104:2008"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19115:-3:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:amd:1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19757:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:639:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:amd:1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:19757:-3:en"
-        ],
-        "nom": "ISO/TS 19115-3:2016 Geographic information — Metadata — Part 3: XML schema implementation for fundamental concepts",
-        "short": "ISO/TS 19115-3:2016"
+        "dependance": [],
+        "nom": "ISO/TS 19115-3",
+        "short": "ISO/TS 19115-3"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19129:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:19121:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19109:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19101:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:7498:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:8211:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:8825:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:10746:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:12087:-5:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:15444:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:15444:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19101:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19101:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19113:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19114:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:tr:19121:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19138:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en"
-        ],
-        "nom": "ISO/TS 19129:2009 Geographic information — Imagery, gridded and coverage data framework",
-        "short": "ISO/TS 19129:2009"
+        "dependance": [],
+        "nom": "ISO/TS 19129",
+        "short": "ISO/TS 19129"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19130:-2:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19156:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19107:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19108:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19111:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19123:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en"
-        ],
-        "nom": "ISO/TS 19130-2:2014 Geographic information — Imagery sensor models for geopositioning — Part 2: SAR, InSAR, lidar and sonar",
-        "short": "ISO/TS 19130-2:2014"
+        "dependance": [],
+        "nom": "ISO/TS 19130-2",
+        "short": "ISO/TS 19130-2"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19130:-3:en": {
         "dependance": [
@@ -2284,8 +1535,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19135:-2:en": {
         "dependance": [],
-        "nom": "ISO/TS 19135-2",
-        "short": "ISO/TS 19135-2"
+        "nom": "ISO/TS 19135-2:2012",
+        "short": "ISO/TS 19135-2:2012"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19138:en": {
         "dependance": [],
@@ -2293,33 +1544,9 @@
         "short": "ISO/TS 19138"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:-1:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19115:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19115:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19157:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19118:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19103:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19105:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19110:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19115:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19119:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19136:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19157:-2:en"
-        ],
-        "nom": "ISO/TS 19139-1:2019 Geographic information — XML schema implementation — Part 1: Encoding rules",
-        "short": "ISO/TS 19139-1:2019"
+        "dependance": [],
+        "nom": "ISO/TS 19139-1",
+        "short": "ISO/TS 19139-1"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:-2:en": {
         "dependance": [],
@@ -2328,8 +1555,8 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19139:en": {
         "dependance": [],
-        "nom": "ISO/TS 19139:2007",
-        "short": "ISO/TS 19139:2007"
+        "nom": "ISO/TS 19139",
+        "short": "ISO/TS 19139"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19150:-1:en": {
         "dependance": [
@@ -2345,7 +1572,7 @@
             "https://www.iso.org/obp/ui/#iso:std:iso:19141:en",
             "https://www.iso.org/obp/ui/#iso:std:iso:19144:-2:en"
         ],
-        "nom": "ISO/TS 19150-1:2012 Geographic information — Ontology — Part 1: Framework",
+        "nom": "ISO/TS 19150-1:2012",
         "short": "ISO/TS 19150-1:2012"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19157:-2:en": {
@@ -2367,30 +1594,9 @@
         "short": "ISO/TS 19158:2012"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-1:en": {
-        "dependance": [
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19130:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:guide:98:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:5725:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:80000:en",
-            "https://www.iso.org/obp/ui/#iso:std:iec:80000:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:guide:2:ed-8:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:guide:98:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso-iec:guide:99:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:5725:-3:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:6709:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:9000:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:12233:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:12718:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19101:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19116:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:ts:19130:-2:en",
-            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
-            "https://www.iso.org/obp/ui/#iso:std:iec:88528:-11:en"
-        ],
-        "nom": "ISO/TS 19159-1:2014 Geographic information — Calibration and validation of remote sensing imagery sensors and data — Part 1: Optical sensors",
-        "short": "ISO/TS 19159-1:2014"
+        "dependance": [],
+        "nom": "ISO/TS 19159-1",
+        "short": "ISO/TS 19159-1"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-2:en": {
         "dependance": [
@@ -2404,8 +1610,8 @@
             "https://www.iso.org/obp/ui/#iso:std:iso:ts:19101:-2:en",
             "https://www.iso.org/obp/ui/#iso:std:iso:ts:19130:-2:en"
         ],
-        "nom": "ISO/TS 19159-2:2016 Geographic information — Calibration and validation of remote sensing imagery sensors and data — Part 2: Lidar",
-        "short": "ISO/TS 19159-2:2016"
+        "nom": "ISO/TS 19159-2",
+        "short": "ISO/TS 19159-2"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19159:-3:en": {
         "dependance": [
@@ -2417,8 +1623,8 @@
             "https://www.iso.org/obp/ui/#iso:std:iso:ts:19101:-2:en",
             "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en"
         ],
-        "nom": "ISO/TS 19159-3:2018 Geographic information — Calibration and validation of remote sensing imagery sensors and data — Part 3: SAR/InSAR",
-        "short": "ISO/TS 19159-3:2018"
+        "nom": "ISO/TS 19159-3",
+        "short": "ISO/TS 19159-3"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19163:-1:en": {
         "dependance": [
@@ -2457,8 +1663,8 @@
             "https://www.iso.org/obp/ui/#iso:std:iso:tr:19121:en",
             "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en"
         ],
-        "nom": "ISO/TS 19163-1:2016 Geographic information — Content components and encoding rules for imagery and gridded data — Part 1: Content model",
-        "short": "ISO/TS 19163-1:2016"
+        "nom": "ISO/TS 19163-1",
+        "short": "ISO/TS 19163-1"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19163:-2:en": {
         "dependance": [

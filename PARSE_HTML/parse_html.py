@@ -75,20 +75,25 @@ def isorequests(url,ISODict):
             #     print(link)
             # linktuple = linktuple + (link,)
             #Test si la clé existe dans le dico afin de ne pas rewrite par dessus
-            if unicodedata.normalize("NFKD",str(item.text).split(',',1)[0]) not in ISODict:
-                print("Nouvelle clé")
-                ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = {
-                    "nom":unicodedata.normalize("NFKD",str(item.text)),
-                    "lien":re.sub("ed-1:|ed-2:|ed-3:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",(''.join(item.absolute_links.pop()))).split(":clause")[0],
-                    "dependance":[]
-                    }
-            #Afin d'avoir les mêmes liens et ne pas avoir plusieurs nodes pour la même clé il faut retirer les 'ed-1' et 'v1' des liens
+                        #Afin d'avoir les mêmes liens et ne pas avoir plusieurs nodes pour la même clé il faut retirer les 'ed-1' et 'v1' des liens
             linkform = ''.join(item.absolute_links)
             linkform = re.sub("ed-1:|ed-2:|ed-3:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",linkform)
             #Pour le nettoyer encore, on split pour retirer ce qu'il se trouverai derrière le ':en', on prend le séparateur ":clause" qui se trouve toujours derrière le ":en"
             linkform = linkform.split(":clause")
+            if linkform[0] not in ISODict:
+                print("Nouvelle clé")
+                # ISODict[unicodedata.normalize("NFKD",str(item.text).split(',',1)[0])] = {
+                #     "nom":unicodedata.normalize("NFKD",str(item.text)),
+                #     "lien":re.sub("ed-1:|ed-2:|ed-3:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",(''.join(item.absolute_links.pop()))).split(":clause")[0],
+                #     "dependance":[]
+                #     }                
+                ISODict[re.sub("ed-1:|ed-2:|ed-3:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",(''.join(item.absolute_links.pop()))).split(":clause")[0]] = {
+                    "short":unicodedata.normalize("NFKD",str(item.text).split(',',1)[0]),
+                    "nom":unicodedata.normalize("NFKD",str(item.text)),
+                    "dependance":[]
+                }
             #Ensuite on vient remplire le dico
-            ISODict[ISOName]["dependance"].append(linkform[0])
+            ISODict[url]["dependance"].append(linkform[0])
     # Print Testing
     #for cle in ISODict.keys():
         #print(cle)
