@@ -37,7 +37,7 @@ for key,value in Dicoviz.items():
             # print(e)
 
 #Utilisation d'algo
-iso_net.hrepulsion()
+iso_net.barnes_hut()
 
 #Affichage du réseau
 iso_net.toggle_physics(True)

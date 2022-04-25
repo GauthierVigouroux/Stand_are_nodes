@@ -153,15 +153,15 @@
         "hideNodesOnDrag": false
     },
     "physics": {
-        "enabled": true,
-        "hierarchicalRepulsion": {
-            "centralGravity": 0.0,
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
             "damping": 0.09,
-            "nodeDistance": 120,
-            "springConstant": 0.01,
-            "springLength": 100
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
         },
-        "solver": "hierarchicalRepulsion",
+        "enabled": true,
         "stabilization": {
             "enabled": true,
             "fit": true,
