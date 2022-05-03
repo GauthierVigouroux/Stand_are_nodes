@@ -1,26 +1,11 @@
-{
-    "ISO 19101-1:2014":{
-        "nom": "ISO 19101-1:2014 Geographic information — Reference model — Part 1: Fundamentals",
-        "lien": "https://www.iso.org/obp/ui/#iso:std:iso:19101:-1:ed-1:v1:en"
+{    
+    "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en": {
+        "nom": "ISO 19115-2:2019 Geographic information — Metadata — Part 2: Extensions for acquisition and processing",
+        "short": "ISO 19115-2:2019"
     },
-    "ISO 19101-2:2018":{
-        "nom":"ISO 19101-2:2018 Information géographique — Modèle de réference — Partie 2: Imagerie",
-        "lien":"https://www.iso.org/obp/ui/#iso:std:iso:19101:-2:ed-1:v1:en"
-    },
-    "ISO 19103:2015":{
-        "nom":"ISO 19103:2015 Geographic information — Conceptual schema language",
-        "lien":"https://www.iso.org/obp/ui/fr/#iso:std:iso:19103:ed-1:v1:en"
-    },
-    "ISO 19104:2016":{
-        "nom":"ISO 19104:2016 Geographic information — Terminology",
-        "lien":"https://www.iso.org/obp/ui/fr/#iso:std:iso:19104:ed-1:v1:en"
-    },
-    "ISO 19105:2000":{
-        "nom":"ISO 19105:2000 Geographic information — Conformance and testing",
-        "lien":"https://www.iso.org/obp/ui/fr/#iso:std:iso:19105:ed-1:v1:en"
-    },
-    "ISO 19106:2004":{
-        "nom":"ISO 19106:2004 Geographic information — Profiles",
-        "lien":"https://www.iso.org/obp/ui/fr/#iso:std:iso:19106:ed-1:v1:en"
+    "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en": {
+        "nom": "ISO 19115-1:2014 Geographic information — Metadata — Part 1: Fundamentals",
+        "short": "ISO 19115-1:2014"
     }
+
 }

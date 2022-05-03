@@ -12,7 +12,8 @@ def readJsonFileInit(file):
         ISODict[cle]={
             "nom":values["nom"],
             "short":values["short"],
-            "dependance":[]
+            "dependance":{},
+            "status":"Updated"
         }
     return ISODict
 
