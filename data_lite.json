@@ -1,0 +1,23 @@
+{
+    "https://www.electropedia.org/": {
+        "dependance": {},
+        "nom": null,
+        "short": null,
+        "status": null
+    },
+    "https://www.iso.org/obp": {
+        "dependance": {},
+        "nom": null,
+        "short": null,
+        "status": null
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en": {
+        "dependance": {},
+        "nom": "ISO 19115-1:2014 Geographic information — Metadata — Part 1: Fundamentals",
+        "short": "ISO 19115-1:2014",
+        "status": "Updated"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en": {
+        "dependance": {
+            "https://www.electropedia.org/": {
+                "citation_int": 

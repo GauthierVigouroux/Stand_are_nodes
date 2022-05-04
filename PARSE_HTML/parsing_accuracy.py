@@ -65,40 +65,50 @@ def isorequests(url,ISODict):
 
     # Récupération des noms et liens de normes si non présent dans le dico
     for links in Dependencies:
-        #tester si il y a un # dans les liens
-        links = links.split(":term")
-        links = links[0]
+        # Test si il y a un # dans les liens, il y en a un peu partout dans le code
+        bad_link = False
+        if "#"  in links:
+            
+            links = links.split(":term")
+            links = links[0]
 
-        if links not in ISODict.keys():
-            iso_name_and_short = get_name_short_status(links)
-            ISODict[links] = {
-                "short": iso_name_and_short["short"],
-                "nom": iso_name_and_short["name"],
-                "dependance":{},
-                "status":iso_name_and_short["status"]
+            if links not in ISODict.keys():
+                iso_name_and_short = get_name_short_status(links)
+                ISODict[links] = {
+                    "short": iso_name_and_short["short"],
+                    "nom": iso_name_and_short["name"],
+                    "dependance":{},
+                    "status":iso_name_and_short["status"]
+                }
+            # Alimentation des dépendances
+            ISODict[url]["dependance"][links] = {
+                "citation_int" : int
             }
-        # Alimentation des dépendances
-        ISODict[url]["dependance"][links] = {
-            "citation_int" : int
-        }
+        else :
+            bad_link = True
 
-    # Nombre de fois cité dans le document
-    # On recupère une nouvelle fois les liens pour ne pas avoir la forme absolue
-    ScopeDep = divScope[0].links
-    NormeDep = divNormRef[0].links
-    ScopeDep.update(NormeDep)
-    # Transformation en liste pour pouvoir parcourir
-    citation = []
-    for element in ScopeDep:
-        citation.append(element)
+    # Si le test précédent est vrai alors on skip
+    if bad_link == False :
+        # Nombre de fois cité dans le document
+        # On recupère une nouvelle fois les liens pour ne pas avoir la forme absolue
+        ScopeDep = divScope.links
+        NormeDep = divNormRef.links
+        ScopeDep.update(NormeDep)
+        # Transformation en liste pour pouvoir parcourir
+        citations = []
+        for element in ScopeDep:
+            citations.append(element)
     
     # On cherche combien de fois la dépendance est cité dans le document
-    for href in citation:
-        citation_int = 0
-        find = "a[href="+ href +"]"
-        for element in response.html.find('a',containing=href):
-            citation_int += 1
-        links = "https://www.iso.org/obp/ui/" + href
-        ISODict[url]["dependance"][links]["citation_int"] = citation_int
+        for href in citations:
+            if "#" in href:
+                citation_int = 0
+                find = "a[href="+ href +"]"
+                for element in response.html.find('a',containing=href):
+                    citation_int += 1
+                links = "https://www.iso.org/obp/ui/" + href
+                links = links.split(":term")
+                links = links[0]
+                ISODict[url]["dependance"][links]["citation_int"] = citation_int
 
     return ISODict
