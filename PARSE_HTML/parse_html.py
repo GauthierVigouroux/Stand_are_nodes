@@ -90,7 +90,8 @@ def isorequests(url,ISODict):
                 ISODict[re.sub("ed-1:|ed-2:|ed-3:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",(''.join(item.absolute_links.pop()))).split(":clause")[0]] = {
                     "short":unicodedata.normalize("NFKD",str(item.text).split(',',1)[0]),
                     "nom":unicodedata.normalize("NFKD",str(item.text)),
-                    "dependance":[]
+                    "dependance":[],
+                    "global_count_citation":0
                 }
             #Ensuite on vient remplire le dico
             ISODict[url]["dependance"].append(linkform[0])
