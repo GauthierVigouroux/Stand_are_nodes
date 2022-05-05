@@ -54,7 +54,7 @@ for key in Dicoviz.keys():
             # print(e)
 
 #Utilisation d'algo
-iso_net.show_buttons()
+iso_net.show_buttons(filter_=["nodes", "edges", "physics"])
 iso_net.barnes_hut()
 
 #Affichage du réseau
