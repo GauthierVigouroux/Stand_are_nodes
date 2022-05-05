@@ -2,6 +2,8 @@ from cgitb import html
 import pandas as pd
 import numpy as np
 from jsonreading import readJsonFileViz
+import math
+import statistics
 
 import warnings
 
@@ -23,15 +25,28 @@ sourcelist = list()
 targetlist = list()
 valuelist = list()
 
+T=0
+for i in ISODico.keys():
+    for k in ISODico[i]["dependance"]:
+        T+=len(k)
+
 for key in ISODico.keys():
     for iso in ISODico[key]["dependance"]:
         if not(ISODico[key]["dependance"]) == False:
             sourcelist.append(ISODico[key]["short"])
             targetlist.append(ISODico[iso]["short"])
-            valuelist.append(ISODico[key]["dependance"].count(iso))
+            tf_ref = ISODico[key]["dependance"].count(iso)
+            sf_ref = ISODico[iso]["global_count_citation"]
+            isf_ref = math.log(len(ISODico.keys())/sf_ref)
+            w = tf_ref * isf_ref
+            valuelist.append(w)
 source = pd.DataFrame(sourcelist)
 target = pd.DataFrame(targetlist)
 value = pd.DataFrame(valuelist)
+
+# Calcul du poid moyen :
+print("La moyenne du poid est de : " + str(statistics.mean(valuelist)))
+print("L'écart type est de : " + str(statistics.pstdev(valuelist)))
 
 links = pd.concat([source, target, value], axis=1)
 links.columns = ['source', 'target', 'value']
@@ -48,7 +63,7 @@ for key in ISODico.keys():
 # ISODataFrame = pd.concat([ISOListnom],axis=1)
 ISODataSet = hv.Dataset(pd.DataFrame(ISOListnom,columns=["ISO"]))
 # Filtrage sur le nombre de référence minimum
-min_nav = 2
+min_nav = 5.5
 hv.extension('bokeh')
 chord = hv.Chord((links, ISODataSet)).select(value=(min_nav, None))
 
@@ -56,7 +71,7 @@ chord = hv.Chord((links, ISODataSet)).select(value=(min_nav, None))
 
 
 ############################################################################################
-
+          
 def rotate_label(plot, element):
     white_space = "                  "
     angles = plot.handles['text_1_source'].data['angle']

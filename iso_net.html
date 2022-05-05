@@ -14,7 +14,7 @@
         #mynetwork {
             width: 75%;
             height: 1500px;
-            background-color: #222222;
+            background-color: #ffffff;
             border: 1px solid lightgray;
             position: relative;
             float: left;
@@ -144,12 +144,7 @@
 
         var options = {
     "configure": {
-        "enabled": true,
-        "filter": [
-            "nodes",
-            "edges",
-            "physics"
-        ]
+        "enabled": true
     },
     "edges": {
         "color": {
@@ -167,12 +162,12 @@
     },
     "physics": {
         "barnesHut": {
-            "avoidOverlap": 0,
-            "centralGravity": 0.3,
-            "damping": 0.09,
-            "gravitationalConstant": -80000,
-            "springConstant": 0.001,
-            "springLength": 250
+            "avoidOverlap": 0.9,
+            "centralGravity": 0,
+            "damping": 0.4,
+            "gravitationalConstant": -8300,
+            "springConstant": 0.04,
+            "springLength": 435
         },
         "enabled": true,
         "stabilization": {

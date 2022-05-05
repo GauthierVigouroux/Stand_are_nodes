@@ -1,26 +1,24 @@
-
+import imp
 from pyvis.network import Network
 import jsonreading
 import math
+import networkx as nx
 
 #Initialisation
 Dicoviz = jsonreading.readJsonFileViz("data.json")
-iso_net = Network(height='1500px', width='75%',font_color='white',directed=True)
 DicoInit = jsonreading.readJsonFileInit("isolist_v3.json")
+nx_graph = nx.Graph()
 
-#Alimentation du réseau
-##Création des nodes
 for key in Dicoviz.keys():
     value = len(Dicoviz[key]["dependance"])
     if Dicoviz[key]["short"].startswith("ISO/IEC"):
-        iso_net.add_node(key,label=Dicoviz[key]["short"], color="#03DAC6", value=value*100000)
+        nx_graph.add_node(key,label=Dicoviz[key]["short"], color="#03DAC6", value=value*100000)
     elif "TS" in Dicoviz[key]["short"]:
-        iso_net.add_node(key,label=Dicoviz[key]["short"],color="#da03b3", value=value*100000)
+        nx_graph.add_node(key,label=Dicoviz[key]["short"],color="#da03b3", value=value*100000)
     elif key in DicoInit.keys():
-        iso_net.add_node(key,label=Dicoviz[key]["short"],color="#FFFF00", value=value*100000)
+        nx_graph.add_node(key,label=Dicoviz[key]["short"],color="#FFFF00", value=value*100000)
     else:
-        iso_net.add_node(key,label=Dicoviz[key]["short"], value=value*100000)
-    
+        nx_graph.add_node(key,label=Dicoviz[key]["short"], value=value*100000)
 
 T=0
 for i in Dicoviz.keys():
@@ -43,21 +41,14 @@ for key in Dicoviz.keys():
         isf_ref = math.log(len(Dicoviz.keys())/sf_ref)
         w = tf_ref * isf_ref
         try:
-            iso_net.add_edge(url_src,url_dest[i],color="#018786", value = w)
+            nx_graph.add_edge(url_src,url_dest[i],color="#018786", value = w)
             print()
         except KeyError as e:
-            iso_net.add_node(url_dest[i])
-            iso_net.add_edge(url_src,url_dest[i],color="#018786", value = w)
+            nx_graph.add_node(url_dest[i])
+            nx_graph.add_edge(url_src,url_dest[i],color="#018786", value = w)
             # print(e)
         except AssertionError as e:
-            iso_net.add_node(url_dest[i])
-            iso_net.add_edge(url_src,url_dest[i],color="#018786", value = w)
+            nx_graph.add_node(url_dest[i])
+            nx_graph.add_edge(url_src,url_dest[i],color="#018786", value = w)
             # print(e)
 
-#Utilisation d'algo
-iso_net.show_buttons()
-iso_net.barnes_hut(gravity=-8300,central_gravity=0,spring_length=435,spring_strength=0.04,damping=0.4,overlap=0.9)
-
-#Affichage du réseau
-iso_net.toggle_physics(True)
-iso_net.show("iso_net.html")
