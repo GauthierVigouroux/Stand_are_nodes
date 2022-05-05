@@ -13,7 +13,7 @@ for standardlink in ISODictAntiCircular:
     ISODict = PARSE_HTML.parse_html.isorequests(standardlink,ISODict)
     #print(list(ISODict.items())[-1]) #Permet de voir l'évolution de la taille du dico
     # print(ISODict[standard])
-    ISODict = global_count_citation(ISODict)
+ISODict = global_count_citation(ISODict)
 #print(ISODict)
 with open('data.json', 'w') as fp:
     json.dump(ISODict, fp, sort_keys=True, indent=4, ensure_ascii=False)

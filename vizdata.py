@@ -4,7 +4,7 @@ import math
 
 #Initialisation
 Dicoviz = jsonreading.readJsonFileViz("data.json")
-iso_net = Network(height='1500px', width='100%', bgcolor='#222222',font_color='white')
+iso_net = Network(height='1500px', width='75%', bgcolor='#222222',font_color='white',directed=True)
 DicoInit = jsonreading.readJsonFileInit("isolist_v3.json")
 
 #Alimentation du réseau
@@ -25,7 +25,7 @@ T=0
 for i in Dicoviz.keys():
     for k in Dicoviz[key]["dependance"]:
         T+=len(k)
-print("Nombre totale de références dans l'écosystème : " + T)
+print("Nombre totale de références dans l'écosystème : " + str(T))
 ##Creation des edges avec gestions des exceptions
 for key in Dicoviz.keys():
     url_src = key
@@ -54,6 +54,7 @@ for key in Dicoviz.keys():
             # print(e)
 
 #Utilisation d'algo
+iso_net.show_buttons()
 iso_net.barnes_hut()
 
 #Affichage du réseau
