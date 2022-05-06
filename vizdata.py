@@ -4,9 +4,9 @@ import jsonreading
 import math
 
 #Initialisation
-Dicoviz = jsonreading.readJsonFileViz("dataS-101.json")
+Dicoviz = jsonreading.readJsonFileViz("data.json")
 iso_net = Network(height='1500px', width='100%',font_color='black',directed=True)
-DicoInit = jsonreading.readJsonFileInit("S-101.json")
+DicoInit = jsonreading.readJsonFileInit("isolist_v3.json")
 
 #Alimentation du réseau
 ##Création des nodes
