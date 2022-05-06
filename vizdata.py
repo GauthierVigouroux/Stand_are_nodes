@@ -4,22 +4,22 @@ import jsonreading
 import math
 
 #Initialisation
-Dicoviz = jsonreading.readJsonFileViz("data.json")
-iso_net = Network(height='1500px', width='75%',font_color='black',directed=True,)
-DicoInit = jsonreading.readJsonFileInit("isolist_v3.json")
+Dicoviz = jsonreading.readJsonFileViz("dataS-101.json")
+iso_net = Network(height='1500px', width='100%',font_color='black',directed=True)
+DicoInit = jsonreading.readJsonFileInit("S-101.json")
 
 #Alimentation du réseau
 ##Création des nodes
 for key in Dicoviz.keys():
     value = len(Dicoviz[key]["dependance"])
     if Dicoviz[key]["short"].startswith("ISO/IEC"):
-        iso_net.add_node(key,label=Dicoviz[key]["short"], color="#03DAC6", value=value*100000)
+        iso_net.add_node(key,label=Dicoviz[key]["short"], color="#03DAC6", value=value)
     elif "TS" in Dicoviz[key]["short"]:
-        iso_net.add_node(key,label=Dicoviz[key]["short"],color="#da03b3", value=value*100000)
+        iso_net.add_node(key,label=Dicoviz[key]["short"],color="#da03b3", value=value)
     elif key in DicoInit.keys():
-        iso_net.add_node(key,label=Dicoviz[key]["short"],color="#FFFF00", value=value*100000)
+        iso_net.add_node(key,label=Dicoviz[key]["short"],color="#FFFF00", value=value)
     else:
-        iso_net.add_node(key,label=Dicoviz[key]["short"], value=value*100000)
+        iso_net.add_node(key,label=Dicoviz[key]["short"], value=value)
     
 
 T=0
@@ -56,7 +56,43 @@ for key in Dicoviz.keys():
             # print(e)
 
 #Utilisation d'algo
-iso_net.show_buttons()
+#iso_net.show_buttons()
+# iso_net.set_options("""
+# var options = {
+#   "nodes": {
+#     "borderWidthSelected": 6,
+#     "color": {
+#       "highlight": {
+#         "border": "rgba(233,34,61,1)",
+#         "background": "rgba(210,229,255,1)"
+#       }
+#     }
+#   },
+#   "edges": {
+#     "arrows": {
+#       "to": {
+#         "enabled": true,
+#         "scaleFactor": 0.3
+#       }
+#     },
+#     "color": {
+#       "highlight": "rgba(255,19,34,1)",
+#       "inherit": false
+#     },
+#     "smooth": false
+#   },
+#   "physics": {
+#     "barnesHut": {
+#       "gravitationalConstant": -8300,
+#       "centralGravity": 0,
+#       "springLength": 435,
+#       "damping": 0.4,
+#       "avoidOverlap": 0.9
+#     },
+#     "minVelocity": 0.75
+#   }
+# }
+# """)
 iso_net.barnes_hut(gravity=-8300,central_gravity=0,spring_length=435,spring_strength=0.04,damping=0.4,overlap=0.9)
 
 #Affichage du réseau

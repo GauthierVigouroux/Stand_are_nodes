@@ -1,0 +1,86 @@
+{
+    "https://www.iso.org/obp/ui/#iso:std:iso:639:-2:ed-1:v1:en":{
+        "nom": "ISO 639-2:1998 Codes for the representation of names of languages — Part 2: Alpha-3 code",
+        "short": "ISO 639-2:1998"
+    },
+    "https://www.iso.org/obp/ui#iso:std:iso:3166:-1:ed-4:v1:en":{
+        "nom": "ISO 3166-1:2020 Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
+        "short":"ISO 3166-1:2020"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso-iec:8211:ed-2:v1:en":{
+        "nom": "ISO/IEC 8211:1994 Information technology — Specification for a data descriptive file for information interchange",
+        "short":"ISO/IEC 8211:1994"
+    },
+    "https://www.iso.org/obp/ui/fr/#iso:std:iso:8601:ed-3:v1:en":{
+        "nom":"ISO 8601:2004 Data elements and interchange formats — Information interchange — Representation of dates and times",
+        "short": "ISO 8601:2004"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19101:ed-1:en":{
+        "nom": "ISO 19101:2002 Geographic information — Reference model",
+        "short": "ISO 19101:2002"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:ts:19103:ed-1:v1:en":{
+        "nom": "ISO/TS 19103:2005 Geographic information — Conceptual schema language",
+        "short":"ISO 19103:2002"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19105:en": {
+        "nom": "ISO 19105:2000 Geographic information — Conformance and testing",
+        "short": "ISO 19105:2000"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19107:ed-1:v1:en":{
+        "nom": "ISO 19107:2003 Geographic information — Spatial schema",
+        "short": "ISO 19107:2003"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19108:en": {
+        "nom": "ISO 19108:2002 Geographic information — Temporal schema",
+        "short": "ISO 19108:2002"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19109:ed-1:v1:en":{
+        "nom": "ISO 19109:2005 Geographic information — Rules for application schema",
+        "short": "ISO 19109:2005"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19110:ed-1:v1:en":{
+        "nom": "ISO 19110:2005 Geographic information — Methodology for feature cataloguing",
+        "short": "ISO 19110:2005"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19111:ed-2:v1:en":{
+        "nom": "ISO 19111:2007 Geographic information — Spatial referencing by coordinates",
+        "short": "ISO 19111:2007"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19113:ed-1:v1:en":{
+        "nom": "ISO 19113:2002 Geographic information — Quality principles",
+        "short": "ISO 19113:2002"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:fr":{
+        "nom": "ISO 19115-1:2014 Geographic information — Metadata — Part 1: Fundamentals",
+        "short": "ISO 19115-1:2014"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:ts:19115:-3:ed-1:v1:en":{
+        "nom": "ISO/TS 19115-3:2016 Geographic information — Metadata — Part 3: XML schema implementation for fundamental concepts",
+        "short": "ISO/TS 19115-3:2016"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19117:en": {
+        "nom": "ISO 19117:2012 Geographic information — Portrayal",
+        "short": "ISO 19117:2012"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19118:en": {
+        "nom": "ISO 19118:2011 Geographic information — Encoding",
+        "short": "ISO 19118:2011"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19131:en": {
+        "nom": "ISO 19131:2007 Geographic information — Data product specifications",
+        "short": "ISO 19131:2007"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:19157:en": {
+        "nom": "ISO 19157:2013 Geographic information — Data quality",
+        "short": "ISO 19157:2013"
+    },
+    "https://www.iso.org/obp/ui/#iso:std:iso:ts:19138:ed-1:v1:en":{
+        "nom": "ISO/TS 19138:2006 Geographic information — Data quality measures",
+        "short": "ISO/TS 19138:2006"
+    },
+    "https://www.iso.org/obp/ui/fr/#iso:std:iso-iec:19501:ed-1:v1:en":{
+        "nom": "ISO/IEC 19501:2005 Information technology — Open Distributed Processing — Unified Modeling Language (UML) Version 1.4.2",
+        "short": "ISO/IEC 19501:2005 "
+    }
+}
