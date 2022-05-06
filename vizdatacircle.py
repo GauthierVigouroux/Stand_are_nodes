@@ -63,7 +63,7 @@ for key in ISODico.keys():
 # ISODataFrame = pd.concat([ISOListnom],axis=1)
 ISODataSet = hv.Dataset(pd.DataFrame(ISOListnom,columns=["ISO"]))
 # Filtrage sur le nombre de référence minimum
-min_nav = 5.5
+min_nav = 6.5
 hv.extension('bokeh')
 chord = hv.Chord((links, ISODataSet)).select(value=(min_nav, None))
 
@@ -95,6 +95,6 @@ def rotate_label(plot, element):
 #Affichage du diagramme de dépendance
 # chord = hv.Chord((coupleList,ISOList))
 chord.opts(node_color="ISO", node_cmap="Category20", cmap='Category20', edge_cmap='Category20', edge_color="source",
-               labels='ISO', edge_line_width=2, height=1500, width=1500, title="ISO 19100 series dependancies", hooks=[rotate_label])
+               labels='ISO', edge_line_width=2, height=1500, width=1500, title="ISO 19100 Series", hooks=[rotate_label])
 
 hv.save(chord, 'chordviz.html',fmt='html')

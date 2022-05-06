@@ -5,7 +5,7 @@ import math
 
 #Initialisation
 Dicoviz = jsonreading.readJsonFileViz("data.json")
-iso_net = Network(height='1500px', width='100%',font_color='black',directed=True)
+iso_net = Network(height='1500px', width='75%',font_color='black',directed=True)
 DicoInit = jsonreading.readJsonFileInit("isolist_v3.json")
 
 #Alimentation du réseau
@@ -56,7 +56,7 @@ for key in Dicoviz.keys():
             # print(e)
 
 #Utilisation d'algo
-#iso_net.show_buttons()
+iso_net.show_buttons(filter_=["physics"])
 # iso_net.set_options("""
 # var options = {
 #   "nodes": {
