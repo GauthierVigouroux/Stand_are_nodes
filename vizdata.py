@@ -56,7 +56,7 @@ for key in Dicoviz.keys():
             # print(e)
 
 #Utilisation d'algo
-iso_net.show_buttons(filter_=["physics"])
+iso_net.show_buttons()
 # iso_net.set_options("""
 # var options = {
 #   "nodes": {
@@ -93,8 +93,12 @@ iso_net.show_buttons(filter_=["physics"])
 #   }
 # }
 # """)
+
+#Utilisation et personalisation de barnes_hut
 iso_net.barnes_hut(gravity=-8300,central_gravity=0,spring_length=435,spring_strength=0.04,damping=0.4,overlap=0.9)
+#iso_net.barnes_hut()
 
 #Affichage du réseau
+#Désactiovation dans le doutes mais je ne sais pas si cela affectera le graph pour l'instant.
 iso_net.toggle_physics(True)
 iso_net.show("iso_net.html")
