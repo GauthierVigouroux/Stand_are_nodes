@@ -1,4 +1,3 @@
-import imp
 from pyvis.network import Network
 import jsonreading
 import math
