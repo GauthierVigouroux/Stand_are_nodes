@@ -975,7 +975,7 @@
             "https://www.iso.org/obp/ui/#iso:std:iso:24619:en",
             "https://www.iso.org/obp/ui/#iso:std:iso:82045:-5:en"
         ],
-        "global_count_citation": 45,
+        "global_count_citation": 46,
         "nom": "ISO 19115-1:2014 Geographic information — Metadata — Part 1: Fundamentals",
         "short": "ISO 19115-1:2014"
     },
@@ -997,7 +997,7 @@
             "https://www.iso.org/obp/ui/#iso:std:iso:ts:19130:en",
             "https://www.iso.org/obp/ui/#iso:std:iso-iec:2382:en"
         ],
-        "global_count_citation": 20,
+        "global_count_citation": 21,
         "nom": "ISO 19115-2:2019 Geographic information — Metadata — Part 2: Extensions for acquisition and processing",
         "short": "ISO 19115-2:2019"
     },
@@ -1939,12 +1939,18 @@
             "https://www.iso.org/obp/ui/#iso:std:iso:15836:en",
             "https://www.iso.org/obp/ui/#iso:std:iso:21127:en"
         ],
-        "global_count_citation": 2,
+        "global_count_citation": 3,
         "nom": "ISO 19160-1:2015 Addressing — Part 1: Conceptual model",
         "short": "ISO 19160-1:2015"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:19160:-3:en": {
-        "dependance": [],
+        "dependance": [
+            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:en",
+            "https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:en",
+            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
+            "https://www.iso.org/obp/ui/#iso:std:iso:19157:en",
+            "https://www.iso.org/obp/ui/#iso:std:iso:19160:-1:en"
+        ],
         "global_count_citation": 0,
         "nom": "ISO 19160-3:2020 Addressing — Part 3: Address data quality",
         "short": "ISO 19160-3:2020"
@@ -2339,7 +2345,9 @@
         "short": "ISO/TR 19121:2000"
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:tr:19167:en": {
-        "dependance": [],
+        "dependance": [
+            "https://www.iso.org/obp/ui/#iso:std:iso:19154:en"
+        ],
         "global_count_citation": 0,
         "nom": "ISO/TR 19167:2019 Application of ubiquitous public access to-geographic information to an air quality information service",
         "short": "ISO/TR 19167:2019"
@@ -2586,7 +2594,7 @@
     },
     "https://www.iso.org/obp/ui/#iso:std:iso:ts:19157:-2:en": {
         "dependance": [],
-        "global_count_citation": 2,
+        "global_count_citation": 4,
         "nom": "ISO/TS 19157-2",
         "short": "ISO/TS 19157-2"
     },

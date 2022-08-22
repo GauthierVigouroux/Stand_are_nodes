@@ -13,7 +13,7 @@ import holoviews as hv
 
 #Convertir mon fichier json en Dataframe
 ##Solution 1 (json_normalize):
-ISODico = readJsonFileViz("data.json")
+ISODico = readJsonFileViz("dataS-101.json")
 #df = json_normalize(ISODico)
 #print(df)
 ##Solution 2 (readjson)
