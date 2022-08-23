@@ -29,7 +29,7 @@ case "$option" in
     read -r namein
     echo "Precise the name output file name (with html extension) :"
     read -r nameout
-    echo "Precise the json file used for the input database (with json extension) :"
+    echo "Precise the json file used in input of the database (with json extension) :"
     read -r namebase
     echo "Choose type of vizualization :
         1. Network
@@ -40,7 +40,7 @@ case "$option" in
         python3 vizdata.py -b "$namebase" -i "$namein" -o "$nameout"
         ;;
         2)
-        python3 vizdatacircle.py -b "$namebase" -i "$namein" -o "$nameout"
+        python3 vizdatacircle.py -i "$namein" -o "$nameout"
         ;;
         *)
         echo "bad option"
@@ -51,4 +51,6 @@ case "$option" in
     echo "bad option"
     ;;
 esac
-echo "End"
+echo "End
+Edit by Gauthier Vigouroux
+In collaboration with Pedro Merino Laso and Christophe Claramunt"

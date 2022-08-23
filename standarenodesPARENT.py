@@ -21,7 +21,7 @@ def main(argv):
         elif opt in ("-o", "--ofile"):
             outputfile = arg
     #Récupération du dico original
-    ISODict = jsonreading.readJsonFileInit(inputfile)
+    ISODict = jsonreading.readJsonFileInit("databases/" + inputfile)
     ISODictAntiCircular = list(ISODict)
     #Récupération des infos sur le site de l'ISO afin de compléter les tuples des différents liens
     #.items() retourne un tuple donc hashable
@@ -32,7 +32,7 @@ def main(argv):
         # print(ISODict[standard])
     ISODict = global_count_citation(ISODict)
     #print(ISODict)
-    with open(outputfile, 'w') as fp:
+    with open("databases/" + outputfile, 'w') as fp:
         json.dump(ISODict, fp, sort_keys=True, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":

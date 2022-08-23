@@ -2,7 +2,8 @@
 from pyvis.network import Network
 import jsonreading
 import math
-import sys, getopt
+import sys, getopt, operator
+import networkx as nx
 
 # Command Line Arguments
 def main(argv):
@@ -24,24 +25,18 @@ def main(argv):
             outputfile = arg
 
     #Initialisation
-    Dicoviz = jsonreading.readJsonFileViz(inputfile)
-    iso_net = Network(height='1500px', width='75%',font_color='black',directed=True)
-    DicoInit = jsonreading.readJsonFileInit(basefile)
+    Dicoviz = jsonreading.readJsonFileViz("databases/" + inputfile)
+    iso_net = Network(neighborhood_highlight=True, select_menu=True,directed=True) # notebook=True, 
+    DicoInit = jsonreading.readJsonFileInit("databases/" + basefile)
+    iso_nx = nx.DiGraph()
 
     #Alimentation du réseau
-    ##Création des nodes
+    #Ajout des noeuds
     for key in Dicoviz.keys():
         value = len(Dicoviz[key]["dependance"])
-        if Dicoviz[key]["short"].startswith("ISO/IEC"):
-            iso_net.add_node(key,label=Dicoviz[key]["short"], color="#03DAC6", value=value)
-        elif "TS" in Dicoviz[key]["short"]:
-            iso_net.add_node(key,label=Dicoviz[key]["short"],color="#da03b3", value=value)
-        elif key in DicoInit.keys():
-            iso_net.add_node(key,label=Dicoviz[key]["short"],color="#FFFF00", value=value)
-        else:
-            iso_net.add_node(key,label=Dicoviz[key]["short"], value=value)
+        iso_nx.add_node(key)
         
-
+    #Partie pour l'intialisation au calcul de poid
     T=0
     for i in Dicoviz.keys():
         for k in Dicoviz[i]["dependance"]:
@@ -49,9 +44,9 @@ def main(argv):
 
     ##Creation des edges avec gestions des exceptions
     for key in Dicoviz.keys():
-        url_src = key
+        src = key
         url_dest = Dicoviz[key]["dependance"]
-
+            
         #Calcul du poid des edges
         ##T = Nombre totale de références dans l'écosystème
         ##tf_ref = Fréquence de la référence dans la norme s >> Dicoviz[key]["dependance"].count(url_dest)
@@ -59,69 +54,87 @@ def main(argv):
 
         for i in range(len(url_dest)):
             tf_ref = Dicoviz[key]["dependance"].count(url_dest[i])
-            sf_ref = Dicoviz[url_dest[i]]["global_count_citation"]
+            sf_ref = Dicoviz[url_dest[i]]["global_count_citation"]+1
             isf_ref = math.log(len(Dicoviz.keys())/sf_ref)
             w = tf_ref * isf_ref
-            value_nodes = len(Dicoviz[key]["dependance"])
+            value_nodes = len(Dicoviz[key]["dependance"])        
             try:
-                iso_net.add_edge(url_src,url_dest[i],color="#018786", value = w)
-                print()
+                #iso_net.add_edge(url_src,url_dest[i],color="#018786", value = w)
+                iso_nx.add_edge(src,url_dest[i], weight = w)
+                #iso_nx.nodes[key]['weight']=w
+                iso_nx.nodes[key]['size']=len(Dicoviz[src]["dependance"])
             except KeyError as e:
-                iso_net.add_node(url_dest[i], value = value_nodes)
-                iso_net.add_edge(url_src,url_dest[i],color="#018786", value = w)
+                iso_nx.add_node(url_dest[i],size=len(Dicoviz[url_dest]["dependance"]))
+                #iso_net.add_edge(url_src,url_dest[i],color="#018786", value = w)
+                iso_nx.add_edge(src,url_dest[i], weight = w)
                 # print(e)
             except AssertionError as e:
-                iso_net.add_node(url_dest[i], value = value_nodes)
-                iso_net.add_edge(url_src,url_dest[i],color="#018786", value = w)
-                # print(e)
+                iso_nx.add_node(url_dest[i],size=len(Dicoviz[url_dest]["dependance"]))
+                #iso_net.add_edge(url_src,url_dest[i],color="#018786", value = w)
+                iso_nx.add_edge(src,url_dest[i], weight = w)
+                # print(e) 
 
-    #Utilisation d'algo
-    iso_net.show_buttons()
-    # iso_net.set_options("""
-    # var options = {
-    #   "nodes": {
-    #     "borderWidthSelected": 6,
-    #     "color": {
-    #       "highlight": {
-    #         "border": "rgba(233,34,61,1)",
-    #         "background": "rgba(210,229,255,1)"
-    #       }
-    #     }
-    #   },
-    #   "edges": {
-    #     "arrows": {
-    #       "to": {
-    #         "enabled": true,
-    #         "scaleFactor": 0.3
-    #       }
-    #     },
-    #     "color": {
-    #       "highlight": "rgba(255,19,34,1)",
-    #       "inherit": false
-    #     },
-    #     "smooth": false
-    #   },
-    #   "physics": {
-    #     "barnesHut": {
-    #       "gravitationalConstant": -8300,
-    #       "centralGravity": 0,
-    #       "springLength": 435,
-    #       "damping": 0.4,
-    #       "avoidOverlap": 0.9
-    #     },
-    #     "minVelocity": 0.75
-    #   }
-    # }
-    # """)
+    ##sourcealgo : https://networkx.org/documentation/stable/reference/algorithms/index.html
+    #nx.betweenness_centrality(iso_nx)
+    #############
+    #rgb_to_hex((255, 255, 195))
+    nx.degree_centrality(iso_nx)
 
-    #Utilisation et personalisation de barnes_hut
-    iso_net.barnes_hut(gravity=-8300,central_gravity=0,spring_length=435,spring_strength=0.04,damping=0.4,overlap=0.9)
-    #iso_net.barnes_hut()
+    degree_centrality = nx.in_degree_centrality(iso_nx)
+    max_key = max(degree_centrality, key=lambda key: degree_centrality[key])
+    max_degree = degree_centrality[max_key]
+    for n in iso_nx.nodes:
+        r=255
+        g=255*abs((degree_centrality[n]/max_degree)-1)
+        b=255*abs((degree_centrality[n]/max_degree)-1)
+        rgb = (int(r),int(b),int(g))
+        iso_nx.nodes[n]['color']="#"+rgb_to_hex(rgb)
+
+    #nx.write_gexf(iso_nx,"test.gexf")
+    iso_net.from_nx(iso_nx)
+
+    for n in iso_net.nodes:
+        n['label']=Dicoviz[n['id']]['short']
 
     #Affichage du réseau
     #Désactiovation dans le doutes mais je ne sais pas si cela affectera le graph pour l'instant.
     iso_net.toggle_physics(True)
-    iso_net.show(outputfile)
+    iso_net.show("results/" + outputfile)
+
+    iso_net.set_options("""var options = {
+        "nodes": {
+            "color": {
+            "highlight": {
+                "border": "rgba(24,255,22,1)"
+            }
+            }
+        },
+        "edges": {
+            "color": {
+            "highlight": "rgba(255,21,12,1)",
+            "inherit": false
+            },
+            "smooth": {
+            "type": "continuous",
+            "roundness": 0.5
+            }
+        },
+        "physics": {
+            "forceAtlas2Based": {
+            "gravitationalConstant": -227,
+            "springLength": 100
+            },
+            "minVelocity": 0.75,
+            "solver": "forceAtlas2Based"
+        }
+    }
+    """)
+
+    #iso_net.force_atlas_2based()
+    iso_net.show("iso_net.html")
 
 if __name__ == "__main__":
    main(sys.argv[1:])
+   
+def rgb_to_hex(rgb):
+  return '%02x%02x%02x' % rgb

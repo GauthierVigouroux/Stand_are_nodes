@@ -22,10 +22,8 @@ def main(argv):
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print('test.py -b <basefile> -i <inputfile> -o <outputfile>')
+            print('test.py -i <inputfile> -o <outputfile>')
             sys.exit()
-        elif opt in("-b", "--bfile"):
-            basefile = arg
         elif opt in ("-i", "--ifile"):
             inputfile = arg
         elif opt in ("-o", "--ofile"):
@@ -33,7 +31,7 @@ def main(argv):
 
     #Convertir mon fichier json en Dataframe
     ##Solution 1 (json_normalize):
-    ISODico = readJsonFileViz("data.json")
+    ISODico = readJsonFileViz("databases/" + inputfile)
     #df = json_normalize(ISODico)
     #print(df)
     ##Solution 2 (readjson)
@@ -117,7 +115,7 @@ def main(argv):
     chord.opts(node_color="ISO", node_cmap="Category20", cmap='Category20', edge_cmap='Category20', edge_color="source",
                 labels='ISO', edge_line_width=2, height=1500, width=1500, title="ISO 19100 Series", hooks=[rotate_label])
 
-    hv.save(chord, 'chordviz.html',fmt='html')
+    hv.save(chord,"results/" + outputfile,fmt='html')
 
 if __name__ == "__main__":
    main(sys.argv[1:])
