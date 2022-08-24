@@ -24,7 +24,7 @@ Visualisation de l'éco-système normatif autour des cartes de navigations sous 
                 - ~Avec une forme normalisé des noms pour éviter les doublons~
         - ~Renvoi du dictionnaire.~
     -> FeedNodes.py
-        - fonction init: 
+        - fonction init:
             - Parcours du dictionnaire :
                 -Si norme non présente dans la bdd = Création du Nodes
         - fonction link:
