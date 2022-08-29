@@ -88,5 +88,6 @@ isolist.json
 Precise the name output file name (with html extension) :
 iso_net.html
 ```
-<p></p>
-A terminer le choix de visualisation
+
+<p>Next, we propose 2 ways to visualize your database :</p>
+<h4>Network</h4>
