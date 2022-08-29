@@ -14,7 +14,6 @@ echo "Options:
     Other to skip and end"
 echo "Choose your option here :"
 read -r option
-echo "$option"
 
 case "$option" in
     1)
@@ -26,11 +25,12 @@ case "$option" in
     ;;
     2)
     echo "Precise the json in file name (with json extension) :"
-    read -r namein
-    echo "Precise the name output file name (with html extension) :"
-    read -r nameout
+    read -r namein    
     echo "Precise the json file used in input of the database (with json extension) :"
     read -r namebase
+    echo "Precise the name output file name (with html extension) :"
+    read -r nameout
+
     echo "Choose type of vizualization :
         1. Network
         2. Circle"
