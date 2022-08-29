@@ -1,16 +1,9 @@
-<<<<<<< HEAD
-<h1 align=center>Stand Are Nodes</h1>
-
-
-=======
 <h1 align="center">Stand Are Nodes Project</h1> 
 
->>>>>>> 95a4fbbeea83d580dabcf9a93b43f976be84629a
 <p align="center">Welcome in the Stand Are Nodes Project ! This draft aims to produce a POC for the evaluation of the relationships between norm in a visual way <i>(but not only)</i> to evaluate cyber threat impact on normatives ecosystems.</p> 
 
 <p align="center">A demo will take place soon at <a href="https://sigspatial2022.sigspatial.org/">SIG Spatial 2022.</a></p>
 
-<<<<<<< HEAD
 <h2>Setup</h2>
 
 <p>
@@ -96,9 +89,7 @@ iso_net.html
 ```
 
 <p>Next, we propose 2 ways to visualize your database :</p>
-<h4>Network</h4>
-=======
-## Setup
-
-It's a fully Python3 project which generate JS code for web 
->>>>>>> 95a4fbbeea83d580dabcf9a93b43f976be84629a
+<h4><b>1. Network</b></h4>
+<p><img src=img/iso19100.png  width="500" height="400"></p>
+<h4><b>2. Circle (Bokeh)</b></h4>
+<p><img src=img/bokeh_plot.png  width="400" height="400"></p>
