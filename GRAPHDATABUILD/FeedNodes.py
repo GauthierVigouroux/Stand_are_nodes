@@ -21,4 +21,4 @@ class interact_db:
                 code = ISODict[key].keys(),
                 titre = values[0],
                 link = values[1]
-            ).save() # Je suis pas sur de ce coup là
+            ).save() # I'm not sure about this one

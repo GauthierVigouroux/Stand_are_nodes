@@ -1,8 +1,8 @@
 import json
 
-#Lecture initial du fichier json
+#Initial reading of the json file
 def readJsonFileInit(file):
-    # Doit retourner le dico sous sa bonne forme
+    # Must return the dictionary in its correct form
     # fileObject = open(file, "r")
     # jsonContent = fileObject.read()
     with open(file, 'r') as fp:
@@ -21,5 +21,4 @@ def readJsonFileViz(file):
     fileObject = open(file, "r")
     jsonContent = fileObject.read()
     Dicoviz=json.loads(jsonContent)
-    #TODO voir pour une réorganisation du dico
     return Dicoviz

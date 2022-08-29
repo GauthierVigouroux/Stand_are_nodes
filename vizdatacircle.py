@@ -29,7 +29,7 @@ def main(argv):
         elif opt in ("-o", "--ofile"):
             outputfile = arg
 
-    #Convertir mon fichier json en Dataframe
+    #Convert my json file to Dataframe
     ##Solution 1 (json_normalize):
     ISODico = readJsonFileViz("databases/" + inputfile)
     #df = json_normalize(ISODico)
@@ -62,7 +62,7 @@ def main(argv):
     target = pd.DataFrame(targetlist)
     value = pd.DataFrame(valuelist)
 
-    # Calcul du poid moyen :
+    # Calculation of the average weight :
     print("La moyenne du poid est de : " + str(statistics.mean(valuelist)))
     print("L'écart type est de : " + str(statistics.pstdev(valuelist)))
 
@@ -70,7 +70,7 @@ def main(argv):
     links.columns = ['source', 'target', 'value']
     print(links.head())
 
-    #Voici ma liste de normes
+    #Here is my list of standards
     ISOListlien =list()
     ISOListnom = list()
     for key in ISODico.keys():
@@ -80,7 +80,7 @@ def main(argv):
     # ISOListnom = pd.DataFrame(ISOListnom)
     # ISODataFrame = pd.concat([ISOListnom],axis=1)
     ISODataSet = hv.Dataset(pd.DataFrame(ISOListnom,columns=["ISO"]))
-    # Filtrage sur le nombre de référence minimum
+    # Filtering on minimum reference number
     min_nav = 6.5
     hv.extension('bokeh')
     chord = hv.Chord((links, ISODataSet)).select(value=(min_nav, None))
@@ -103,14 +103,14 @@ def main(argv):
     # # print(linkslist)
     # print(linkslist.count("https://www.iso.org/obp/ui/#iso:std:iso:19108:en"))
 
-    # #Comptage du nombre de liens présent pour notre column valeur 
+    # #Counting the number of links present for our column value 
     # coupleList = []
     # for key in ISODico.keys():
     #     for link in ISODico[key]["dependance"]:
     #         coupleList.append([ISODico[key]["short"],ISODico[link]["short"],ISODico[key]["dependance"].count(link)])
     # # print(coupleList)
 
-    #Affichage du diagramme de dépendance
+    #Displaying the dependency diagram
     # chord = hv.Chord((coupleList,ISOList))
     chord.opts(node_color="ISO", node_cmap="Category20", cmap='Category20', edge_cmap='Category20', edge_color="source",
                 labels='ISO', edge_line_width=2, height=1500, width=1500, title="ISO 19100 Series", hooks=[rotate_label])

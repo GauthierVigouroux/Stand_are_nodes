@@ -2,42 +2,42 @@ import unicodedata
 from requests_html import HTMLSession
 import re
 
-# Fonction de récupération et de parsing de l'html
+# Html retrieval and parsing function
 def isorequests(url,ISODict):
-    # Format du dico
+    # Dictionary format
     # ISODict[str]=[str,str,tuple]
 
-    # Initialisation de la session
+    # Initialization of the session
     session = HTMLSession()
     
-    # Récupération du code source
+    # Recovery of the source code
     response = session.get(url)
-    #Test rapide pour savoir si il y a une erreure à un moment donné
+    #Quick test to see if there is an error at a given time
     if response.status_code != 200:
         print(response.status_code)
     
-    # Execution du Javascript
+    # Javascripts Execution
     response.html.render(sleep=1, keep_page=True)
 
     # Parsing
-    # Récupération de le liste des noms et liens de normes présent dans le documents
+    # Retrieving the list of names and links of standards in the document
     StandListSTDNotClean = response.html.find('.sts-std-ref')
-    # Si les références de la norme ne sont pas alimenté en liens il faut récupérer le nom
+    # If the standard's references are not populated with links, the name must be retrieved
     if not StandListSTDNotClean:
         StandListXREF = response.html.find('li')
         for element in StandListXREF:
             ISONameXREF = unicodedata.normalize("NFKD",element.text)
-            if ISONameXREF.startswith('—') == False and "Annex" not in ISONameXREF: # Test obligatoire sinon je récupère d'autres listes sur certaines normes / J'ai rajouté un test pour ne pas avoir le lien des annexes
+            if ISONameXREF.startswith('—') == False and "Annex" not in ISONameXREF: # Mandatory test otherwise I get other lists on some standards / I added a test to not have the link of the annexes
                 print()
                 ISONameXREFSplit = ISONameXREF.split(",")
 
 
-    # Récupération des normes présentes mais qui n'était pas encore publiée lors de la soumission de la norme
+    # Retrieval of standards that were present but not yet published when the standard was submitted
     #StandListXREF = response.html.find('li')
     
 
-    #Nettoyage des liens avec ceux qui repointes vers le lien interrogé (Les points où il y a ref a la norme analysé)
-    #Récupération du numéro de la norme
+    #Cleaning of the links with those that point to the questioned link (the points where there is a reference to the analysed standard)
+    #Retrieving the standard number
     FindStandNum = response.html.find('.v-label-h2')
     ISOName = unicodedata.normalize("NFKD",FindStandNum[0].text).replace('(en)','')
     ISONameSplit = ISOName.split(" ")
@@ -46,39 +46,38 @@ def isorequests(url,ISODict):
     else:
         ISONum = ISONameSplit[1].split(":")
     StandListSTDToClean = response.html.find('.sts-std-ref',containing=ISONum[0])
-    #Récupération du nom de la norme
+    #Retrieving the name of the standard
     # FindStandName = response.html.find('.std-title')
     # StandName = FindStandName[0].text
-    #Maintenant on vient vraiment nettoyer les liens
+    #Now we really come to clean the links
     for element in StandListSTDToClean:
         for element2 in StandListSTDNotClean:
             if element.absolute_links == element2.absolute_links or "Guide" in element2.text:
                 StandListSTDNotClean.remove(element2)
     StandListSTDClean = StandListSTDNotClean
 
-    #On vient remplire les dico de nouvelles normes(On a un dico donc normalement les données ne seront pas dupliqués)
-    #DONE Si ce n'est pas une norme Guide ou non (ref en haut)
+    #The dictionaries are filled with new standards (we have a dictionary so normally the data will not be duplicated)
+    #DONE Whether it is a Guide standard or not (ref above)
     # for element in StandListXREF:
     #     print(element.absolute_links)
-    #     if str(element.text).startswith('—') == False and "Annex" not in element.text: # Test obligatoire sinon je récupère d'autres listes sur certaines normes / J'ai rajouté un test pour ne pas avoir le lien des annexes
-    #         ISODict[unicodedata.normalize("NFKD",str(element.text).split(',',1)[0])] = [unicodedata.normalize("NFKD",str(element.text)),None,tuple()] # Pour modifier le tuple il faut retransformer en liste (les listes ne sont pas hasables)
-    # Afin d'être le plus précis possible je dois regarder au delas des références normatives
-    # et prendre en compte .
+    #     if str(element.text).startswith('—') == False and "Annex" not in element.text: # Mandatory test otherwise I get other lists on some standards / I added a test to not have the link of the annexes.
+    #         ISODict[unicodedata.normalize("NFKD",str(element.text).split(',',1)[0])] = [unicodedata.normalize("NFKD",str(element.text)),None,tuple()] # To modify the tuple you have to transform it back into a list (lists are not hashable)
+    # In order to be as accurate as possible I have to look beyond the normative references and take into account .
 
     # linktuple = tuple()
     for item in StandListSTDClean:
         #print(item.absolute_links)
-        #Certains items qui commencent par -- ne sont pas des liens vers des normes.
+        #Some items that start with -- are not links to standards.
         if item.text.startswith('—') == False or item.text.startswith('ISO') == False:
             # for value in item.absolute_links:
             #     link = value
             #     print(link)
             # linktuple = linktuple + (link,)
-            #Test si la clé existe dans le dico afin de ne pas rewrite par dessus
-                        #Afin d'avoir les mêmes liens et ne pas avoir plusieurs nodes pour la même clé il faut retirer les 'ed-1' et 'v1' des liens
+            #Test if the key exists in the dictionary so as not to rewrite over it
+                        #In order to have the same links and not to have several nodes for the same key, the 'ed-1' and 'v1' must be removed from the links
             linkform = ''.join(item.absolute_links)
             linkform = re.sub("ed-1:|ed-2:|ed-3:|ed-4:|ed-5:|v1:|v2:|v3:|v4:","",linkform)
-            #Pour le nettoyer encore, on split pour retirer ce qu'il se trouverai derrière le ':en', on prend le séparateur ":clause" qui se trouve toujours derrière le ":en"
+            #To clean it up again, we split to remove what would be behind the ':en', we take the separator ":clause" which is always behind the ":en".
             linkform = linkform.split(":clause")
             if linkform[0] not in ISODict:
                 print("Nouvelle clé")
@@ -93,12 +92,11 @@ def isorequests(url,ISODict):
                     "dependance":[],
                     "global_count_citation":0
                 }
-            #Ensuite on vient remplire le dico
+            #Then we come and fill in the dictionary
             ISODict[url]["dependance"].append(linkform[0])
     # Print Testing
     #for cle in ISODict.keys():
         #print(cle)
-    #TODO Alimenter le dico en liens
 
 
     return ISODict

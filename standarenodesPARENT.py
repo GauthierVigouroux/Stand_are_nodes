@@ -20,15 +20,15 @@ def main(argv):
             inputfile = arg
         elif opt in ("-o", "--ofile"):
             outputfile = arg
-    #Récupération du dico original
+    #Retrieving the original dictionary
     ISODict = jsonreading.readJsonFileInit("databases/" + inputfile)
     ISODictAntiCircular = list(ISODict)
-    #Récupération des infos sur le site de l'ISO afin de compléter les tuples des différents liens
-    #.items() retourne un tuple donc hashable
+    #Retrieving information from the ISO website to complete the tuples of the different links
+    #.items() returns a tuple so hashable
     for standardlink in ISODictAntiCircular:
         print(ISODict[standardlink]["short"])
         ISODict = PARSE_HTML.parse_html.isorequests(standardlink,ISODict)
-        #print(list(ISODict.items())[-1]) #Permet de voir l'évolution de la taille du dico
+        #print(list(ISODict.items())[-1]) #Allows you to see the evolution of the size of the dictionary
         # print(ISODict[standard])
     ISODict = global_count_citation(ISODict)
     #print(ISODict)

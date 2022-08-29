@@ -24,32 +24,32 @@ def main(argv):
         elif opt in ("-o", "--ofile"):
             outputfile = arg
 
-    #Initialisation
+    #Initialization
     Dicoviz = jsonreading.readJsonFileViz("databases/" + inputfile)
     iso_net = Network(neighborhood_highlight=True, select_menu=True,directed=True) # notebook=True, 
     DicoInit = jsonreading.readJsonFileInit("databases/" + basefile)
     iso_nx = nx.DiGraph()
 
-    #Alimentation du réseau
-    #Ajout des noeuds
+    #Network alimentation
+    #Adding nodes
     for key in Dicoviz.keys():
         value = len(Dicoviz[key]["dependance"])
         iso_nx.add_node(key)
         
-    #Partie pour l'intialisation au calcul de poid
+    #Part for the introduction to weight calculation
     T=0
     for i in Dicoviz.keys():
         for k in Dicoviz[i]["dependance"]:
             T+=len(k)
 
-    ##Creation des edges avec gestions des exceptions
+    ##Creation of edges with exception handling
     for key in Dicoviz.keys():
         src = key
         url_dest = Dicoviz[key]["dependance"]
             
-        #Calcul du poid des edges
-        ##T = Nombre totale de références dans l'écosystème
-        ##tf_ref = Fréquence de la référence dans la norme s >> Dicoviz[key]["dependance"].count(url_dest)
+        #Calculation of the weight of the edges
+        ##T = Total number of references in the ecosystem
+        ##tf_ref = Frequency of the reference in the standard s >> Dicoviz[key]["dependance"].count(url_dest)
         
 
         for i in range(len(url_dest)):
@@ -96,8 +96,8 @@ def main(argv):
     for n in iso_net.nodes:
         n['label']=Dicoviz[n['id']]['short']
 
-    #Affichage du réseau
-    #Désactiovation dans le doutes mais je ne sais pas si cela affectera le graph pour l'instant.
+    #Network display
+    #Deactivation in the doubt but I don't know if it will affect the graph for the moment.
     iso_net.toggle_physics(True)
     iso_net.show("results/" + outputfile)
 
