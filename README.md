@@ -1,6 +1,6 @@
 <h1 align="center">Stand Are Nodes Project</h1> 
 
-<p align="center">Welcome in the Stand Are Nodes Project ! This draft aims to produce a POC for the evaluation of the relationships between norm in a visual way <i>(but not only)</i> to evaluate cyber threat impact on normatives ecosystems.</p> 
+<p align="center">Welcome to the Stand Are Nodes Project! This draft aims to produce a POC for the evaluation of the relationships between norms in a visual way <i>(but not only)</i> to evaluate the cyber threat impact on normative ecosystems.</p> 
 
 <p align="center">A demo will take place soon at <a href="https://sigspatial2022.sigspatial.org/">SIG Spatial 2022.</a></p>
 
@@ -16,7 +16,7 @@ python3 pip install -r requirements.txt
 
 <h2>Configuration</h2>
 
-<p>Before running the script you have to create an input json file (Put it in the directory <i>databases</i>). It concerned with the norms you want to analyse. If you need to analyse an ISO ecosystem, you have to create a file which each entries is a norm of the ISO ecosystem. You will need the code of the norm like a key, the likes to the iso preview of the norm, the title of this norm and fill the file like this :</p>
+<p>Before running the script you have to create an input JSON file (Put it in the directory <i>databases</i>). It is concerned with the norms you want to analyze. If you need to analyze an ISO ecosystem, you have to create a file in which each entry is a norm of the ISO ecosystem. You will need the code of the norm like a key, the likes to the iso preview of the norm, the title of this norm, and fill the file like this :</p>
 
 <b>isolist.json :</b>
 ```json
@@ -37,7 +37,7 @@ python3 pip install -r requirements.txt
 
 <h2>Running</h2>
 
-To run scripts use the shell commands  :
+To run scripts, use the shell commands  :
 
 ```
 $ chmod u+x stand_are_nodes.sh
@@ -58,7 +58,7 @@ Choose your option here :
 
 <h3><b>(Option 1) Populate the database :</b></h3>
 
-<p>Use choose this option to get all dependencies presents in norms which are in the file you've just filled before. This script will store links of all dependencies presents in normative text <i>(public acces part)</i>.</p>
+<p>Use choose this option to get all dependencies present in norms that are in the file you've just filled before. This script will store links of all dependencies present in the normative text <i>(public access part)</i>.</p>
 
 ```
 Choose your option here :
@@ -69,13 +69,13 @@ Precise the json output file name (with json extension) :
 data.json
 ```
 
-<p>You have now all dependencies present (under links form) in the norms you filled in the input file in the output file which have aproximatly the same format as your input file.</p>
+<p>You have now all dependencies present (under links form) in the norms you filled in the input file in the output file which has approximately the same format as your input file.</p>
 
 <h3><b>(Option 2) Vizualize the database :</b></h3>
 
-<p><b>⚠️<i>To run this option you firstly need to run the first option if you dont run it before.</i>⚠️</b></p>
+<p><b>⚠️<i>To run this option you firstly need to run the first option if you don't run it before.</i>⚠️</b></p>
 
-<p>For this option you will have to precise two input files. The first one is the output file from the first option. The second one is the input file from the first option. Finally, you need to give a name to the output file with the <i>.html</i> extension.</p>
+<p>For this option, you will have to precise two input files. The first one is the output file from the first option. The second one is the input file from the first option. Finally, you need to give a name to the output file with the <i>.html</i> extension.</p>
 
 ```
 Choose your option here :
@@ -93,3 +93,5 @@ iso_net.html
 <p><img src=img/iso19100.png  width="500" height="400"></p>
 <h4><b>2. Circle (Bokeh)</b></h4>
 <p><img src=img/bokeh_plot.png  width="400" height="400"></p>
+
+<p><b>⚠️<i>Visualization going in the results file.</i>⚠️</b></p>
