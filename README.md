@@ -39,7 +39,7 @@ python3 pip install -r requirements.txt
 
 To run scripts use the shell commands  :
 
-```bash
+```
 $ chmod u+x stand_are_nodes.sh
 $ ./stand_are_nodes.sh
            __                          .___                                                          .___                   
