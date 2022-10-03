@@ -10,7 +10,7 @@ const driver = db.driver(dbUri, db.auth.basic(user, password))
 
 
 /**
- * interface used to query statements to the neo4j databse
+ * interface used to query statements to the neo4j database
  */
 type QueryStatement = {
     query : string, 
@@ -53,24 +53,20 @@ function queryDb(queryStatements : QueryStatement[]) : Promise<any>{
  */
 export function postStandard(standard : Standard) : Promise<QueryResult>{
 
-    return new Promise<QueryResult>(async (res, reject)=>{
+    return new Promise<QueryResult>( (res, reject)=>{
         
-
         //queries building
         let mainNodeId = "mainNode";
         let secondNodeId = "referedNode";
 
-        let firstNode = `( ${mainNodeId}: Standard { name : $mainNodeName})`
+        let firstNode = `(${mainNodeId}: Standard { name : $mainNodeName})`
         let secondNode = `(${secondNodeId} : Standard { name : $referedNodeName})`
 
         let mergeFirstNodeQuery = `MERGE ${firstNode}`;
         let mergeSecondNodeQuery = `MERGE ${secondNode}`;
         let relationShipQuery = `MATCH ${firstNode}, ${secondNode} merge (${mainNodeId})-[r:REFERENCES]->(${secondNodeId})`;
 
-
-
         try{
-
             //statements building
             let queryStatements : QueryStatement[] = [];
             queryStatements.push({query : mergeFirstNodeQuery, parameters : {mainNodeName : standard.name}})
@@ -80,12 +76,23 @@ export function postStandard(standard : Standard) : Promise<QueryResult>{
             }
 
             //results of the last of the 3 queries
-            let result = await queryDb(queryStatements);
+            let result = queryDb(queryStatements);
             res(result)
-
         }
         catch(error){
             reject(error)
         }
     })
+}
+
+/**
+ * delete all the nodes in the database
+ * @returns the result of the delete query
+ */
+export function deleteAll(){
+    let query = "MATCH(n) DETACH DELETE n ";
+    let queryStatements : QueryStatement[] = [];
+    queryStatements.push({query : query, parameters : {}})
+    let result = queryDb(queryStatements);
+    return result
 }
