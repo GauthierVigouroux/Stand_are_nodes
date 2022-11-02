@@ -20,21 +20,28 @@ You need to install geos library :
 <p>
 If you are using aptitude :
 </p>
+
 ```bash
 sudo apt install libgeos-dev
 ```
+
 <p>
 or Fedora :
 </p>
+
 ```bash
 sudo yum install geos-devel
 ```
 <p>
+
 or Arch :
+
 </p>
+
 ```bash
 sudo pacman -Sy geos
 ```
+
 <h2>Configuration</h2>
 
 <p>Before running the script you have to create an input JSON file (Put it in the directory <i>databases</i>). It is concerned with the norms you want to analyze. If you need to analyze an ISO ecosystem, you have to create a file in which each entry is a norm of the ISO ecosystem. You will need the code of the norm like a key, the likes to the iso preview of the norm, the title of this norm, and fill the file like this :</p>
