@@ -43,7 +43,7 @@ def main(argv):
             T+=len(k)
 
     ##Creation of edges with exception handling
-    for key in Dicoviz.keys():
+    for key in Dicoiz.keys():
         src = key
         url_dest = Dicoviz[key]["dependance"]
             
@@ -131,7 +131,7 @@ def main(argv):
     """)
 
     #iso_net.force_atlas_2based()
-    iso_net.show("iso_net.html")
+    #iso_net.show("iso_net.html") # << Need to modify this line
 
 if __name__ == "__main__":
    main(sys.argv[1:])
