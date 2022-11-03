@@ -1,3 +1,4 @@
+#!/usr/bin/python
 
 from pyvis.network import Network
 import jsonreading
@@ -5,12 +6,15 @@ import math
 import sys, getopt, operator
 import networkx as nx
 
+def rgb_to_hex(rgb):
+  return '%02x%02x%02x' % rgb
+
 # Command Line Arguments
 def main(argv):
     inputfile = ''
     outputfile = ''
     try:
-        opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
+        opts, args = getopt.getopt(argv,"hb:hi:o:",["bfile=","ifile=","ofile="])
     except getopt.GetoptError:
         sys.exit(2)
     for opt, arg in opts:
@@ -23,14 +27,13 @@ def main(argv):
             inputfile = arg
         elif opt in ("-o", "--ofile"):
             outputfile = arg
-
     #Initialization
     Dicoviz = jsonreading.readJsonFileViz("databases/" + inputfile)
-    iso_net = Network(neighborhood_highlight=True, select_menu=True,directed=True) # notebook=True, 
+    iso_net = Network(height='1000px', width='100%', directed=True) # notebook=True, select_menu=True, neighborhood_highlight=False, filter_menu=True,
     DicoInit = jsonreading.readJsonFileInit("databases/" + basefile)
     iso_nx = nx.DiGraph()
 
-    #Network alimentation
+    #Network alimentation/
     #Adding nodes
     for key in Dicoviz.keys():
         value = len(Dicoviz[key]["dependance"])
@@ -43,7 +46,7 @@ def main(argv):
             T+=len(k)
 
     ##Creation of edges with exception handling
-    for key in Dicoiz.keys():
+    for key in Dicoviz.keys():
         src = key
         url_dest = Dicoviz[key]["dependance"]
             
@@ -88,7 +91,7 @@ def main(argv):
         g=255*abs((degree_centrality[n]/max_degree)-1)
         b=255*abs((degree_centrality[n]/max_degree)-1)
         rgb = (int(r),int(b),int(g))
-        iso_nx.nodes[n]['color']="#"+rgb_to_hex(rgb)
+        iso_nx.nodes[n]['color']="#" + rgb_to_hex(rgb)
 
     #nx.write_gexf(iso_nx,"test.gexf")
     iso_net.from_nx(iso_nx)
@@ -98,8 +101,8 @@ def main(argv):
 
     #Network display
     #Deactivation in the doubt but I don't know if it will affect the graph for the moment.
-    iso_net.toggle_physics(True)
-    iso_net.show("results/" + outputfile)
+    #iso_net.toggle_physics(True)
+    
 
     iso_net.set_options("""var options = {
         "nodes": {
@@ -111,8 +114,7 @@ def main(argv):
         },
         "edges": {
             "color": {
-            "highlight": "rgba(255,21,12,1)",
-            "inherit": false
+            "highlight": "rgba(255,21,12,1)"
             },
             "smooth": {
             "type": "continuous",
@@ -129,12 +131,10 @@ def main(argv):
         }
     }
     """)
+    iso_net.show("results/" + outputfile)
 
     #iso_net.force_atlas_2based()
     #iso_net.show("iso_net.html") # << Need to modify this line
 
 if __name__ == "__main__":
    main(sys.argv[1:])
-   
-def rgb_to_hex(rgb):
-  return '%02x%02x%02x' % rgb
