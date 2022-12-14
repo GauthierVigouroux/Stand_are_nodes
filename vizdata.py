@@ -85,7 +85,7 @@ def main(argv):
 
     degree_centrality = nx.in_degree_centrality(iso_nx)
     max_key = max(degree_centrality, key=lambda key: degree_centrality[key])
-    max_degree = degree_centrality[max_key]
+    max_degree = degree_centrality[max_key] 
     for n in iso_nx.nodes:
         r=255
         g=255*abs((degree_centrality[n]/max_degree)-1)
@@ -93,7 +93,6 @@ def main(argv):
         rgb = (int(r),int(b),int(g))
         iso_nx.nodes[n]['color']="#" + rgb_to_hex(rgb)
 
-    #nx.write_gexf(iso_nx,"test.gexf")
     iso_net.from_nx(iso_nx)
 
     for n in iso_net.nodes:
