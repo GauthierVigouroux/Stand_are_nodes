@@ -1,0 +1,67 @@
+{
+    "OGC 05-005" : {
+        "name" : "Web Map Context",
+        "references" : { "IETF RFC 2045" : 0,
+                         "IETF RFC 2119" : 1,
+                         "SLD" : 4,
+                         "XML 1.0" :2
+    },
+
+        "OGC 06-042" : {
+            "name" : "Web Map Service",
+            "references" : {
+                "ISO 8601:2004" : 2,
+                "ISO 19111" : 7,
+                "ISO 19115:2003" : 5,
+                "IETF RFC 2045" : 1,
+                "IETF RFC 2045" : 5,
+                "IETF RFC 2616" : 9,
+                "UCUM" : 10,
+                "XML 1.0" : 18,
+                "XML Schema" : 3
+            }
+        },
+
+        "OGC 06-121r9" : {
+            "name" : "Web Service Common",
+            "references":{
+                "CGI" : 0,
+                "IETF RFC 2045" : 1,
+                "IETF RFC 2141" : 0,
+                "IETF RFC 2396" : 6,
+                "IETF RFC 2616" : 8,
+                "IETF RFC 4646" : 6,
+                "ISO/IEC Directives, Part 2" : 2,
+                "ISO 4217:2001" : 2,
+                "ISO 8601:2000" : 4,
+                "ISO 19115:2003" : 35,
+                "ISO 19119:2005" : 26,
+                "ISO 19123:2005" : 1,
+                "OGC 02-112" : 0,
+                "OGC 03-105r1" : 1
+                "OGC 04-046r3" : 0,
+                "OGC 04-092r4" : 0,
+                "OGC 07-092r1" : 3,
+                "OGC 08-008r2" : 0,
+                "OGC 08-015" : 0,
+                "OGC 09-046r1" : 4,
+                "OGC 07-107r1": 0,
+                "Namespaces In XML" : 1,
+                "XML 1.0" : 2,
+                "XML Schema" : 46,
+                "SOAP" : 38,
+                "XML-binary Optimized Packaging" : 1}
+        },
+
+        "OGC 07-057r7" : {
+            "name" : "Web Map Tile Service"
+            "reference" : {
+                "ISO 19105:2000" : 1,
+                "OGC 06-121r3" : 66,
+                "SOAP" : 47,
+                "WSDL 1.1": 7
+            }
+        }
+
+        /////////////////////////////////////////////////////////////
+}
