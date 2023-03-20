@@ -12,7 +12,7 @@
             "references" : {
                 "ISO 8601:2004" : 2,
                 "ISO 19111" : 7,
-                "ISO 19115:2003" : 5,
+                "ISO 19115" : 5,
                 "IETF RFC 2045" : 1,
                 "IETF RFC 2045" : 5,
                 "IETF RFC 2616" : 9,
@@ -32,11 +32,11 @@
                 "IETF RFC 2616" : 8,
                 "IETF RFC 4646" : 6,
                 "ISO/IEC Directives, Part 2" : 2,
-                "ISO 4217:2001" : 2,
-                "ISO 8601:2000" : 4,
-                "ISO 19115:2003" : 35,
-                "ISO 19119:2005" : 26,
-                "ISO 19123:2005" : 1,
+                "ISO 4217" : 2,
+                "ISO 8601" : 4,
+                "ISO 19115" : 35,
+                "ISO 19119" : 26,
+                "ISO 19123" : 1,
                 "OGC 02-112" : 0,
                 "OGC 03-105r1" : 1
                 "OGC 04-046r3" : 0,
@@ -56,12 +56,133 @@
         "OGC 07-057r7" : {
             "name" : "Web Map Tile Service"
             "reference" : {
-                "ISO 19105:2000" : 1,
+                "ISO 19105" : 1,
                 "OGC 06-121r3" : 66,
                 "SOAP" : 47,
                 "WSDL 1.1": 7
             }
-        }
+        },
 
+        "OGC 08-068r2" : {
+            "name" : "Web Coverage Processing Service",
+            "references" : {
+                "IETF RFC 2616" : 1,
+                "ISO 8601" : 2,
+                "OGC 05-007r7" : 0,
+                "OGC 06-121r3" : 2,
+                "OGC 07-011" : 2,
+                "OGC 07-067r5" : 17,
+                "OGC 07-092r1" : 0,
+                "OGC 08-053r2" : 0,
+                "OGC 08-059r3" : 3
+            }
+        },
+
+        "OGC 09-025r2": {
+            "name" : "Web Feature Service 2.0",
+            "references" : {
+                "ISO/TS 19103" : 4,
+                "ISO 19136" : 29,
+                "OGC 09-026r2" : 59,
+                "IETF RFC 2616" : 3,
+                "IETF RFC 4646" : 4,
+                "OGC 06-121r3" : 32,
+                "OGC 07-092r3" : 0,
+                "SOAP" : 5,
+                "WSDL 1.1" : 6,
+                "Namespaces In XML" : 3,
+                "XML Path Language" : 4,
+                "XML Schema" : 7
+            }
+        },
+
+        "OGC 09-083r4" : {
+            "name" : "GeoAPI 3.0.1",
+            "references" : {
+                "ISO 19103" : 43,
+                "ISO 19115" : 639,
+                "ISO 19115-2" : 177,
+                "ISO 19111" : 206,
+                "OGC 01-009" : 28,
+                "JSR 363" : 0
+            }
+        },
+
+        "OGC 11-014r3" : {
+            "name" : "Open Modelling Interface",
+            "references" : {
+                "OGC 08-015r2" : 0,
+                "UML" : 8,
+                "XML 1.0" :8
+            }
+        },
+
+        "OGC 14-065" : {
+            "name" : "Web Processing Service",
+            "references" : {
+                "OGC 06-121r9" : 29,
+                "OGC 08-131r3" : 1,
+                "IETF RFC 4646" : 11,
+                "IETF RFC 3986" : 1,
+                "ISO 8601:2004" : 4,
+                "XML Schema" : 9
+             }
+        },
+
+        "OGC 15-001r4" : {
+            "name" : "3D Portrayal Service 1.0"
+            "references" : {
+                "OGC 04-046r3" : 2,
+                "OGC CityGML" : 2,
+                "XML 1.0" : 7,
+                "IETF RFC 1738" : 2,
+                "IETF RFC 2046" : 2,
+                "ISO/IEC 14977" : 1,
+                "ISO 19117" : 1,
+                "IETF RFC 3986" : 1,
+                "KML" : 1
+            }
+        },
+
+        "OGC 17-089r1" : {
+            "name" : "Web Coverage Service 2.1",
+            "references" : {
+                "OGC 07-011" : 0,
+                "OGC 06-121r9" : 4,
+                "OGC 09-146r2" : 4,
+                "OGC 09-146r6" : 6,
+                "OGC 09-110r4" : 1,
+                "OGC 16-083r2" : 0
+            }
+        },
+
+        "OGC 19-072" : {
+            "name" : "API - Common - Part 1: Core"
+            "references" :  {
+                "IETF RFC 2818" : 2,
+                "IETF RFC 3986" : 6,
+                "IETF RFC 6570" : 1,
+                "IETF RFC 7231" : 7,
+                "IETF RFC 7232" : 1,
+                "IETF RFC 7807" : 6,
+                "IETF RFC 8288" : 4,
+                "IETF RFC 8259" : 2,
+                "OpenAPI Specification" : 10
+            }
+        },
+
+        "OGC 20-024" : {
+            "name" : "API - Common - Part 2: Geospatial Data"
+            "references" : {
+                "IETF RFC 3339" : 7,
+                "IETF RFC 7231" : 7,
+                "IETF RFC 8259" : 1,
+                "IETF RFC 8288" : 1,
+                "JSON Schema" : 7,
+                "GML" : 9,
+                "OGC 19-072" : 3,
+                "HTML5" : 1
+            }
+        }
         /////////////////////////////////////////////////////////////
 }
