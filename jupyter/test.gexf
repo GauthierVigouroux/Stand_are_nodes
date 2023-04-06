@@ -1,0 +1,1027 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-04-03">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="value" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="size" type="long" />
+      <attribute id="1" title="color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="OGC 05-005" label="OGC 05-005">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 06-042" label="OGC 06-042">
+        <attvalues>
+          <attvalue for="0" value="27" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 06-121r9" label="OGC 06-121r9">
+        <attvalues>
+          <attvalue for="0" value="78" />
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="OGC 07-057r7" label="OGC 07-057r7">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 08-068r2" label="OGC 08-068r2">
+        <attvalues>
+          <attvalue for="0" value="27" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 09-025r2" label="OGC 09-025r2">
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 09-083r4" label="OGC 09-083r4">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 11-014r3" label="OGC 11-014r3">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 14-065" label="OGC 14-065">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 15-001r4" label="OGC 15-001r4">
+        <attvalues>
+          <attvalue for="0" value="27" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 17-089r1" label="OGC 17-089r1">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="OGC 19-072" label="OGC 19-072">
+        <attvalues>
+          <attvalue for="0" value="27" />
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 20-024" label="OGC 20-024">
+        <attvalues>
+          <attvalue for="0" value="24" />
+          <attvalue for="1" value="#ffffff" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 2045" label="IETF RFC 2045">
+        <attvalues>
+          <attvalue for="1" value="#66ff66" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 2119" label="IETF RFC 2119">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="SLD" label="SLD">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="XML 1.0" label="XML 1.0">
+        <attvalues>
+          <attvalue for="1" value="#00ff00" />
+        </attvalues>
+      </node>
+      <node id="ISO 8601:2004" label="ISO 8601:2004">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="ISO 19111" label="ISO 19111">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="ISO 19115" label="ISO 19115">
+        <attvalues>
+          <attvalue for="1" value="#66ff66" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 2396" label="IETF RFC 2396">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 2616" label="IETF RFC 2616">
+        <attvalues>
+          <attvalue for="1" value="#32ff32" />
+        </attvalues>
+      </node>
+      <node id="UCUM" label="UCUM">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="XML Schema" label="XML Schema">
+        <attvalues>
+          <attvalue for="1" value="#32ff32" />
+        </attvalues>
+      </node>
+      <node id="CGI" label="CGI">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 2141" label="IETF RFC 2141">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 4646" label="IETF RFC 4646">
+        <attvalues>
+          <attvalue for="1" value="#66ff66" />
+        </attvalues>
+      </node>
+      <node id="ISO/IEC Directives, Part 2" label="ISO/IEC Directives, Part 2">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO 4217:2001" label="ISO 4217:2001">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO 8601:2000" label="ISO 8601:2000">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO 19119" label="ISO 19119">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO 19123" label="ISO 19123">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 02-112" label="OGC 02-112">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 03-105r1" label="OGC 03-105r1">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 04-046r3" label="OGC 04-046r3">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="OGC 04-092r4" label="OGC 04-092r4">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 07-092r1" label="OGC 07-092r1">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="OGC 08-008r2" label="OGC 08-008r2">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 08-015" label="OGC 08-015">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 09-046r1" label="OGC 09-046r1">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 07-107r1" label="OGC 07-107r1">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="Namespaces In XML" label="Namespaces In XML">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="SOAP" label="SOAP">
+        <attvalues>
+          <attvalue for="1" value="#66ff66" />
+        </attvalues>
+      </node>
+      <node id="XML-binary Optimized Packaging" label="XML-binary Optimized Packaging">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO 19105" label="ISO 19105">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 06-121r3" label="OGC 06-121r3">
+        <attvalues>
+          <attvalue for="1" value="#66ff66" />
+        </attvalues>
+      </node>
+      <node id="WSDL 1.1" label="WSDL 1.1">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="ISO 8601" label="ISO 8601">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 05-007r7" label="OGC 05-007r7">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 07-011" label="OGC 07-011">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="OGC 07-067r5" label="OGC 07-067r5">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 08-053r2" label="OGC 08-053r2">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 08-059r3" label="OGC 08-059r3">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO/TS 19103" label="ISO/TS 19103">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO 19136" label="ISO 19136">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 09-026r2" label="OGC 09-026r2">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 07-092r3" label="OGC 07-092r3">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="XML Path Language" label="XML Path Language">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO 19103" label="ISO 19103">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO 19115-2" label="ISO 19115-2">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 01-009" label="OGC 01-009">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="JSR 363" label="JSR 363">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 08-015r2" label="OGC 08-015r2">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="UML" label="UML">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 08-131r3" label="OGC 08-131r3">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 3986" label="IETF RFC 3986">
+        <attvalues>
+          <attvalue for="1" value="#66ff66" />
+        </attvalues>
+      </node>
+      <node id="OGC CityGML" label="OGC CityGML">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 1738" label="IETF RFC 1738">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 2046" label="IETF RFC 2046">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO/IEC 14977" label="ISO/IEC 14977">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="ISO 19117" label="ISO 19117">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="KML" label="KML">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 09-146r2" label="OGC 09-146r2">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 09-146r6" label="OGC 09-146r6">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 09-110r4" label="OGC 09-110r4">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="OGC 16-083r2" label="OGC 16-083r2">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 2818" label="IETF RFC 2818">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 6570" label="IETF RFC 6570">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 7231" label="IETF RFC 7231">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 7232" label="IETF RFC 7232">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 7807" label="IETF RFC 7807">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 8288" label="IETF RFC 8288">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 8259" label="IETF RFC 8259">
+        <attvalues>
+          <attvalue for="1" value="#99ff99" />
+        </attvalues>
+      </node>
+      <node id="OpenAPI Specification" label="OpenAPI Specification">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="IETF RFC 3339" label="IETF RFC 3339">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="JSON Schema" label="JSON Schema">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="GML" label="GML">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+      <node id="HTML5" label="HTML5">
+        <attvalues>
+          <attvalue for="1" value="#ccffcc" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="OGC 05-005" target="IETF RFC 2045" id="0">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 05-005" target="IETF RFC 2119" id="1">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 05-005" target="SLD" id="2">
+        <attvalues>
+          <attvalue for="2" value="10.259797429846147" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 05-005" target="XML 1.0" id="3">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-042" target="ISO 8601:2004" id="4">
+        <attvalues>
+          <attvalue for="2" value="17.954645502230758" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-042" target="ISO 19111" id="5">
+        <attvalues>
+          <attvalue for="2" value="20.519594859692294" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-042" target="ISO 19115" id="6">
+        <attvalues>
+          <attvalue for="2" value="15.389696144769221" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-042" target="IETF RFC 2045" id="7">
+        <attvalues>
+          <attvalue for="2" value="3.7436043538031827" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-042" target="IETF RFC 2396" id="8">
+        <attvalues>
+          <attvalue for="2" value="15.389696144769221" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-042" target="IETF RFC 2616" id="9">
+        <attvalues>
+          <attvalue for="2" value="25.649493574615366" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-042" target="UCUM" id="10">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-042" target="XML 1.0" id="11">
+        <attvalues>
+          <attvalue for="2" value="5.6154065307047745" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-042" target="XML Schema" id="12">
+        <attvalues>
+          <attvalue for="2" value="10.259797429846147" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="CGI" id="13">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="IETF RFC 2045" id="14">
+        <attvalues>
+          <attvalue for="2" value="2.932674137586854" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="IETF RFC 2141" id="15">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="IETF RFC 2396" id="16">
+        <attvalues>
+          <attvalue for="2" value="13.10261523831114" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="IETF RFC 2616" id="17">
+        <attvalues>
+          <attvalue for="2" value="16.846219592114323" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="IETF RFC 4646" id="18">
+        <attvalues>
+          <attvalue for="2" value="12.824746787307683" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="ISO/IEC Directives, Part 2" id="19">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="ISO 4217:2001" id="20">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="ISO 8601:2000" id="21">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="ISO 19115" id="22">
+        <attvalues>
+          <attvalue for="2" value="67.3848783684573" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="ISO 19119" id="23">
+        <attvalues>
+          <attvalue for="2" value="69.25363265146149" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="ISO 19123" id="24">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="OGC 02-112" id="25">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="OGC 03-105r1" id="26">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="OGC 04-046r3" id="27">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="OGC 04-092r4" id="28">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="OGC 07-092r1" id="29">
+        <attvalues>
+          <attvalue for="2" value="10.259797429846147" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="OGC 08-008r2" id="30">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="OGC 08-015" id="31">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="OGC 09-046r1" id="32">
+        <attvalues>
+          <attvalue for="2" value="12.824746787307683" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="OGC 07-107r1" id="33">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="Namespaces In XML" id="34">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="XML 1.0" id="35">
+        <attvalues>
+          <attvalue for="2" value="4.399011206380281" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="XML Schema" id="36">
+        <attvalues>
+          <attvalue for="2" value="5.6154065307047745" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="SOAP" id="37">
+        <attvalues>
+          <attvalue for="2" value="30.779392289538443" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 06-121r9" target="XML-binary Optimized Packaging" id="38">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 07-057r7" target="ISO 19105" id="39">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 07-057r7" target="OGC 06-121r3" id="40">
+        <attvalues>
+          <attvalue for="2" value="171.85160694992297" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 07-057r7" target="SOAP" id="41">
+        <attvalues>
+          <attvalue for="2" value="14.97441741521273" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 07-057r7" target="WSDL 1.1" id="42">
+        <attvalues>
+          <attvalue for="2" value="20.519594859692294" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 08-068r2" target="IETF RFC 2616" id="43">
+        <attvalues>
+          <attvalue for="2" value="2.932674137586854" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 08-068r2" target="ISO 8601" id="44">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 08-068r2" target="OGC 05-007r7" id="45">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 08-068r2" target="OGC 06-121r3" id="46">
+        <attvalues>
+          <attvalue for="2" value="5.6154065307047745" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 08-068r2" target="OGC 07-011" id="47">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 08-068r2" target="OGC 07-067r5" id="48">
+        <attvalues>
+          <attvalue for="2" value="46.16908843430766" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 08-068r2" target="OGC 07-092r1" id="49">
+        <attvalues>
+          <attvalue for="2" value="1.8718021769015913" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 08-068r2" target="OGC 08-053r2" id="50">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 08-068r2" target="OGC 08-059r3" id="51">
+        <attvalues>
+          <attvalue for="2" value="10.259797429846147" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="ISO/TS 19103" id="52">
+        <attvalues>
+          <attvalue for="2" value="12.824746787307683" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="ISO 19136" id="53">
+        <attvalues>
+          <attvalue for="2" value="76.9484807238461" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="OGC 09-026r2" id="54">
+        <attvalues>
+          <attvalue for="2" value="153.8969614476922" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="IETF RFC 2616" id="55">
+        <attvalues>
+          <attvalue for="2" value="4.714619985366585" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="IETF RFC 4646" id="56">
+        <attvalues>
+          <attvalue for="2" value="9.359010884507956" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="OGC 06-121r3" id="57">
+        <attvalues>
+          <attvalue for="2" value="48.38912327018309" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="OGC 07-092r3" id="58">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="SOAP" id="59">
+        <attvalues>
+          <attvalue for="2" value="8.798022412760561" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="WSDL 1.1" id="60">
+        <attvalues>
+          <attvalue for="2" value="13.10261523831114" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="Namespaces In XML" id="61">
+        <attvalues>
+          <attvalue for="2" value="7.487208707606365" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="XML Path Language" id="62">
+        <attvalues>
+          <attvalue for="2" value="12.824746787307683" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-025r2" target="XML Schema" id="63">
+        <attvalues>
+          <attvalue for="2" value="11.730696550347416" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-083r4" target="ISO 19103" id="64">
+        <attvalues>
+          <attvalue for="2" value="112.85777172830761" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-083r4" target="ISO 19115" id="65">
+        <attvalues>
+          <attvalue for="2" value="938.4557240277933" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-083r4" target="ISO 19115-2" id="66">
+        <attvalues>
+          <attvalue for="2" value="456.56098562815356" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-083r4" target="ISO 19111" id="67">
+        <attvalues>
+          <attvalue for="2" value="387.4630506186294" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-083r4" target="OGC 01-009" id="68">
+        <attvalues>
+          <attvalue for="2" value="74.38353136638456" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 09-083r4" target="JSR 363" id="69">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 11-014r3" target="OGC 08-015r2" id="70">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 11-014r3" target="UML" id="71">
+        <attvalues>
+          <attvalue for="2" value="23.08454421715383" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 11-014r3" target="XML 1.0" id="72">
+        <attvalues>
+          <attvalue for="2" value="10.607894967074815" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 14-065" target="OGC 06-121r9" id="73">
+        <attvalues>
+          <attvalue for="2" value="76.9484807238461" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 14-065" target="OGC 08-131r3" id="74">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 14-065" target="IETF RFC 4646" id="75">
+        <attvalues>
+          <attvalue for="2" value="17.596044825521123" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 14-065" target="IETF RFC 3986" id="76">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 14-065" target="ISO 8601:2004" id="77">
+        <attvalues>
+          <attvalue for="2" value="9.359010884507956" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 14-065" target="XML Schema" id="78">
+        <attvalues>
+          <attvalue for="2" value="11.786549963416462" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 15-001r4" target="OGC 04-046r3" id="79">
+        <attvalues>
+          <attvalue for="2" value="5.6154065307047745" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 15-001r4" target="OGC CityGML" id="80">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 15-001r4" target="XML 1.0" id="81">
+        <attvalues>
+          <attvalue for="2" value="7.644091560219491" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 15-001r4" target="IETF RFC 1738" id="82">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 15-001r4" target="IETF RFC 2046" id="83">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 15-001r4" target="ISO/IEC 14977" id="84">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 15-001r4" target="ISO 19117" id="85">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 15-001r4" target="IETF RFC 3986" id="86">
+        <attvalues>
+          <attvalue for="2" value="3.7436043538031827" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 15-001r4" target="KML" id="87">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 17-089r1" target="OGC 07-011" id="88">
+        <attvalues>
+          <attvalue for="2" value="1.8718021769015913" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 17-089r1" target="OGC 06-121r9" id="89">
+        <attvalues>
+          <attvalue for="2" value="9.359010884507956" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 17-089r1" target="OGC 09-146r2" id="90">
+        <attvalues>
+          <attvalue for="2" value="12.824746787307683" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 17-089r1" target="OGC 09-146r6" id="91">
+        <attvalues>
+          <attvalue for="2" value="17.954645502230758" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 17-089r1" target="OGC 09-110r4" id="92">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 17-089r1" target="OGC 16-083r2" id="93">
+        <attvalues>
+          <attvalue for="2" value="2.5649493574615367" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 19-072" target="IETF RFC 2818" id="94">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 19-072" target="IETF RFC 3986" id="95">
+        <attvalues>
+          <attvalue for="2" value="10.264359481553988" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 19-072" target="IETF RFC 6570" id="96">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 19-072" target="IETF RFC 7231" id="97">
+        <attvalues>
+          <attvalue for="2" value="20.519594859692294" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 19-072" target="IETF RFC 7232" id="98">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 19-072" target="IETF RFC 7807" id="99">
+        <attvalues>
+          <attvalue for="2" value="17.954645502230758" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 19-072" target="IETF RFC 8288" id="100">
+        <attvalues>
+          <attvalue for="2" value="12.824746787307683" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 19-072" target="IETF RFC 8259" id="101">
+        <attvalues>
+          <attvalue for="2" value="7.694848072384611" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 19-072" target="OpenAPI Specification" id="102">
+        <attvalues>
+          <attvalue for="2" value="28.214442932076903" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 20-024" target="IETF RFC 3339" id="103">
+        <attvalues>
+          <attvalue for="2" value="20.519594859692294" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 20-024" target="IETF RFC 7231" id="104">
+        <attvalues>
+          <attvalue for="2" value="14.97441741521273" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 20-024" target="IETF RFC 8259" id="105">
+        <attvalues>
+          <attvalue for="2" value="3.7436043538031827" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 20-024" target="IETF RFC 8288" id="106">
+        <attvalues>
+          <attvalue for="2" value="3.7436043538031827" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 20-024" target="JSON Schema" id="107">
+        <attvalues>
+          <attvalue for="2" value="20.519594859692294" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 20-024" target="GML" id="108">
+        <attvalues>
+          <attvalue for="2" value="25.649493574615366" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 20-024" target="OGC 19-072" id="109">
+        <attvalues>
+          <attvalue for="2" value="10.259797429846147" />
+        </attvalues>
+      </edge>
+      <edge source="OGC 20-024" target="HTML5" id="110">
+        <attvalues>
+          <attvalue for="2" value="5.1298987149230735" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
