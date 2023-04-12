@@ -185,6 +185,80 @@
                 "OGC 19-072" : 3,
                 "HTML5" : 1
             }
-
+        },
+    "OGC 19-086r5" : {
+        "name" : "OGC API - Environmental data retrieval standard",
+        "references" : {
+            "OpenAPI Specification 3.0" : 54,
+            "IETF RFC 2616" : 1,
+            "IETF RFC 2818" : 1,
+            "IETF RFC 3339" : 1,
+            "IETF RFC 3896" : 0,
+            "IETF RFC 7946" : 10,
+            "IETF RFC 8288" : 3,
+            "IETF RFC 6570" : 0,
+            "HTML5" : 0,
+            "CoverageJSON" : 5,
+            "IETF RFC 2413" : 0,
+            "OGC 06-103r4" : 0,
+            "OGC 18-010r7" : 0,
+            "OGC 17-069r3" : 1,
+            "OGC 19-072" : 8,
+            "OGC 20-024" : 5
         }
+    },
+    "OGC 17-069r4" : {
+        "name" : "OGC API – Features - Part 1: Core",
+        "references" : {
+            "OpenAPI Specification 3.0" : 8,
+            "IETF RFC 2818" : 2,
+            "IETF RFC 3339" : 4,
+            "IETF RFC 7230" : 1,
+            "IETF RFC 7231" : 1,
+            "IETF RFC 7232" : 1,
+            "IETF RFC 8288" : 5,
+            "OGC 10-100r3" : 0,
+            "IETF RFC 7946" : 0
+        }
+    },
+        "OGC 18-058r1" : {
+            "name" : "OGC API - Features - Part 2: Coordinate Reference Systems",
+            "references" : {
+                "OGC 17-069r4" : 9
+            }
+    },
+        "OGC 18-062r2" : {
+            "name" : "OGC API - Processes - Part 1: Core",
+            "references" : {
+                "OGC 06-121r9" : 0,
+                "OGC 14-065" : 0,
+                "IETF RFC 2246" : 0,
+                "IETF RFC 2616" : 1,
+                "IETF RFC 2617" : 0,
+                "IETF RFC 2387" : 2,
+                "IETF RFC 2818" : 2,
+                "IETF RFC 3986" : 1,
+                "IETF RFC 4646" : 0,
+                "IETF RFC 7231" : 1,
+                "IETF RFC 7240" : 1,
+                "IETF RFC 8288" : 4,
+                "IETF RFC 8259" : 0,
+                "JSON Schema" : 1
+             }
+        },
+        "OGC 20-057" : {
+            "name" : "OGC API - Tiles - Part 1: Core",
+            "references" : {
+                "OGC 19-014r3" : 3,
+                "OGC 17-083r4" : 19,
+                "OGC 19-072" : 0,
+                "OGC 20-024" : 0,
+                "OGC 10-090r3" : 1,
+                "IETF RFC 7946" : 0,
+                "OGC 19-008r4" : 1,
+                "ISO/IEC 10918-1" : 2,
+                "ISO/IEC 15948" : 3
+            }
+        }
+
 }
