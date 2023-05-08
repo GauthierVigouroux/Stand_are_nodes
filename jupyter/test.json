@@ -259,6 +259,90 @@
                 "ISO/IEC 10918-1" : 2,
                 "ISO/IEC 15948" : 3
             }
+        },
+    "OGC 19-087" : {
+        "name" : "OGC API - Coverages - Part 1: Core",
+        "references" : {
+            "IETF RFC 2616" : 0,
+            "IETF RFC 2818" : 0,
+            "IETF RFC 3339" : 4,
+            "IETF RFC 3986" : 1,
+            "IETF RFC 3987" : 0,
+            "IETF RFC 6570" : 0,
+            "IETF RFC 8288" : 1,
+            "OGC 19-072" : 3,
+            "OGC 20-024" : 2,
+            "OGC 09-146" : 7,
+            "OGC 19-008" : 0,
+            "OGC Schema" : 0,
+            "OGC 10-090" : 0,
+            "OGC 17-089" : 7,
+            "OpenAPI Specification 3.0" : 5,
+            "HTML5" : 1,
+            "OGC 07-011" : 3,
+            "OGC 08-094" : 4,
+            "OGC 12-000" : 2,
+            "OGC 09-146r2" : 2,
+            "OGC 16-083" : 11,
+            "IETF RFC 7159" : 0,
+            "W3C JSON-LD 1.0" : 0,
+            "RDF 1.1" : 1
+        },
+        "OGC 20-004": {
+            "name" : "OGC API - Records - Part 1: Core",
+            "references" : {
+                "IETF RFC 2616" : 0,
+                "IETF RFC 2818" : 0,
+                "IETF RFC 3339" : 6,
+                "IETF RFC 3986" : 1,
+                "IETF RFC 3987" : 0,
+                "IETF RFC 4287" : 0,
+                "IETF RFC 6570" : 0,
+                "IETF RFC 7946" : 2,
+                "IETF RFC 8288" : 2,
+                "OGC 19-072" : 1,
+                "OGC 17-069r3" : 14,
+                "OGC 19-079" : 2,
+                "OpenAPI Specification 3.0" : 10,
+                "HTML5" : 1,
+                "RDF 1.1" : 0,
+                "XML 1.0" : 4,
+                "OASIS" : 0,
+                "OGC 07-036" : 2,
+                "OGC 10-129r1" : 1,
+                "XML Path Language" : 0,
+                "XML Linking Language" : 0,
+                "ISO/IEC 19757" : 0,
+                "ISO 8601" : 1,
+                "IETF RFC 2183" : 0,
+                "IETF RFC 2387" : 0,
+                "IETF RFC 2392" : 0,
+                "IETF RFC 7159" : 0,
+                "JSON-LD 1.0" : 0
+            }
+        },
+        "OGC 22-026" : {
+            "name" : "OGC API - Join - Part 1: Core",
+            "references" : {
+                "IETF RFC 2616" : 1,
+                "IETF RFC 2818" : 2,
+                "IETF RFC 3339" : 2,
+                "IETF RFC 3986" : 0,
+                "IETF RFC 6266" : 0,
+                "IETF RFC 7231" : 1,
+                "IETF RFC 7578" : 1,
+                "IETF RFC 7807" : 3,
+                "IETF RFC 7946" : 0,
+                "IETF RFC 8259" : 3,
+                "IETF RFC 8288" : 2,
+                "JSON Schema" : 4,
+                "OGC 06-121r9" : 1,
+                "OGC 19-072" : 5,
+                "OGC 20-024" : 2,
+                "OpenAPI Specification 3.0" : 9,
+                "HTML5" : 1
+            }
         }
+    }
 
 }
