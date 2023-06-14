@@ -59,7 +59,7 @@
             "name" : "Web Map Tile Service",
             "references" : {
                 "ISO 19105" : 1,
-                "OGC 06-121r3" : 66,
+                "OGC 06-121" : 66,
                 "SOAP" : 7,
                 "WSDL 1.1": 7
             }
