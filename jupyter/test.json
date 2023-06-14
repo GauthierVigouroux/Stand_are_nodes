@@ -265,36 +265,6 @@
                 "ISO/IEC 15948" : 3
             }
         },
-<<<<<<< HEAD
-        "OGC 19-087" : {
-            "name" : "OGC API - Coverages - Part 1: Core",
-            "references" : {
-                "IETF RFC 2616" : 0,
-                "IETF RFC 2818" : 0,
-                "IETF RFC 3339" : 4,
-                "IETF RFC 3986" : 1,
-                "IETF RFC 3987" : 0,
-                "IETF RFC 6570" : 0,
-                "IETF RFC 8288" : 1,
-                "OGC 19-072" : 3,
-                "OGC 20-024" : 2,
-                "OGC 09-146" : 7,
-                "OGC 19-008" : 0,
-                "OGC Schema" : 0,
-                "OGC 10-090" : 0,
-                "OGC 17-089" : 7,
-                "OpenAPI Specification 3.0" : 5,
-                "HTML5" : 1,
-                "OGC 07-011" : 3,
-                "OGC 08-094" : 4,
-                "OGC 12-000" : 2,
-                "OGC 09-146r2" : 2,
-                "OGC 16-083" : 11,
-                "IETF RFC 7159" : 0,
-                "W3C JSON-LD 1.0" : 0,
-                "RDF 1.1" : 1
-            }
-=======
     "OGC 19-087" : {
         "name" : "OGC API - Coverages - Part 1: Core",
         "references" : {
@@ -322,8 +292,8 @@
             "IETF RFC 7159" : 0,
             "W3C JSON-LD 1.0" : 0,
             "RDF 1.1" : 1
->>>>>>> f0092501 (13062023)
-        },
+        }
+    },
         "OGC 20-004": {
             "name" : "OGC API - Records - Part 1: Core",
             "references" : {
