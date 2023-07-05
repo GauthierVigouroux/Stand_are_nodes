@@ -353,7 +353,22 @@
         "name" : "OpenGIS - SWE Service Model Implementation Standard",
         "references" : {
             "IETF RFC 2396" : 0,
-
+            "ISO 19105" : 0,
+            "ISO 19107" : 0,
+            "ISO 19108" : 5,
+            "ISO 19136" : 2,
+            "ISO 19143" : 1,
+            "ISO/DIS 19156" : 15,
+            "OASIS WS-BaseNotification" : 6,
+            "WS-Topics" : 23,
+            "WS-BrokeredNotification" : 3,
+            "OGC 08-094r1" : 3,
+            "OGC 04-095" : 1,
+            "OGC 04-095" : 28,
+            "OGC 07-000" : 1,
+            "W3C Web Services Addressing" : 1,
+            "W3C XML Information Set" : 2,
+            "XML Path Language" : 7
         }
     }
 }
