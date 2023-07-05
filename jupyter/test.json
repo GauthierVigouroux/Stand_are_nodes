@@ -348,5 +348,12 @@
                 "OpenAPI Specification 3.0" : 9,
                 "HTML5" : 1
             }
+        },
+    "OGC 09-001" : {
+        "name" : "OpenGIS - SWE Service Model Implementation Standard",
+        "references" : {
+            "IETF RFC 2396" : 0,
+
         }
+    }
 }
