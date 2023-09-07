@@ -356,17 +356,6 @@
             "ISO 19105" : 0,
             "ISO 19107" : 0,
             "ISO 19108" : 5,
-<<<<<<< HEAD
-            "ISO 19136" : 2,
-            "ISO 19143" : 1,
-            "ISO/DIS 19156" : 15,
-            "OASIS WS-BaseNotification" : 6,
-            "WS-Topics" : 23,
-            "WS-BrokeredNotification" : 3,
-            "OGC 08-094r1" : 3,
-            "OGC 04-095" : 1,
-            "OGC 04-095" : 28,
-=======
             "ISO 19136" : 3,
             "ISO 19143" : 1,
             "ISO/DIS 19156" : 14,
@@ -374,7 +363,6 @@
             "OGC 08-094" : 2,
             "OGC 04-095" : 1,
             "OGC 06-121" : 31,
->>>>>>> b0042019 (05092023)
             "OGC 07-000" : 1,
             "W3C Web Services Addressing" : 1,
             "W3C XML Information Set" : 2,
